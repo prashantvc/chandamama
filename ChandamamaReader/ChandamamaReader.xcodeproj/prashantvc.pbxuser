@@ -169,8 +169,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312017576;
-			PBXWorkspaceStateSaveDate = 312017576;
+			PBXPerProjectTemplateStateSaveDate = 312018037;
+			PBXWorkspaceStateSaveDate = 312018037;
 		};
 		perUserProjectItems = {
 			DA13571C12565BCC001D47BF = DA13571C12565BCC001D47BF /* PBXTextBookmark */;
@@ -191,7 +191,9 @@
 			DA1E1BF51298FE8200B54803 = DA1E1BF51298FE8200B54803 /* PBXTextBookmark */;
 			DA1E1BF61298FE8200B54803 = DA1E1BF61298FE8200B54803 /* PBXTextBookmark */;
 			DA1E1C161299025B00B54803 = DA1E1C161299025B00B54803 /* PBXTextBookmark */;
-			DA1E1C28129902C700B54803 /* PBXTextBookmark */ = DA1E1C28129902C700B54803 /* PBXTextBookmark */;
+			DA1E1C28129902C700B54803 = DA1E1C28129902C700B54803 /* PBXTextBookmark */;
+			DA1E1C621299049200B54803 /* PBXTextBookmark */ = DA1E1C621299049200B54803 /* PBXTextBookmark */;
+			DA1E1C631299049200B54803 /* PBXTextBookmark */ = DA1E1C631299049200B54803 /* PBXTextBookmark */;
 			DA2BF8331286FD3B001ED933 = DA2BF8331286FD3B001ED933 /* PBXTextBookmark */;
 			DA2BF8351286FD3B001ED933 = DA2BF8351286FD3B001ED933 /* PBXTextBookmark */;
 			DA2DEA7E1270A4AA00CD8BDF = DA2DEA7E1270A4AA00CD8BDF /* PBXTextBookmark */;
@@ -444,6 +446,26 @@
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 558;
+	};
+	DA1E1C621299049200B54803 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA795E9D1273296B00209ECB /* GDataXMLNode.h */;
+		name = "GDataXMLNode.h: 23";
+		rLen = 0;
+		rLoc = 1042;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 558;
+	};
+	DA1E1C631299049200B54803 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA795EB212732A1400209ECB /* ImageScrollView.h */;
+		name = "ImageScrollView.h: 14";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 0;
 	};
 	DA26FABA12957B55009274A6 /* PBXBookmarkGroup */ = {
 		isa = PBXBookmarkGroup;
@@ -878,7 +900,7 @@
 	};
 	DA795E9D1273296B00209ECB /* GDataXMLNode.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {854, 2821}}";
+			sepNavIntBoundsRect = "{{0, 0}, {854, 2756}}";
 			sepNavSelRange = "{1042, 0}";
 			sepNavVisRange = "{558, 930}";
 		};
@@ -928,7 +950,7 @@
 	};
 	DA795EB212732A1400209ECB /* ImageScrollView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {854, 565}}";
+			sepNavIntBoundsRect = "{{0, 0}, {854, 359}}";
 			sepNavSelRange = "{372, 0}";
 			sepNavVisRange = "{0, 486}";
 		};
