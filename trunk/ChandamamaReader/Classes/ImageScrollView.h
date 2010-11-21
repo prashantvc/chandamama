@@ -1,13 +1,19 @@
 
 #import <UIKit/UIKit.h>
+#import "PageServiceDelegate.h"
+#import "PageService.h"
 
-@interface ImageScrollView : UIScrollView <UIScrollViewDelegate> {
+@class PageService;
+
+@interface ImageScrollView : UIScrollView <UIScrollViewDelegate, PageServiceDelegate> {
     UIView        *imageView;
     NSUInteger     index;
 	
 	NSURLConnection* connection; //keep a reference to the connection so we can cancel download in dealloc
 	NSMutableData* data;
 	NSURL *pageUrl;
+	PageService *pageService;
+	
 }
 @property (assign) NSUInteger index;
 

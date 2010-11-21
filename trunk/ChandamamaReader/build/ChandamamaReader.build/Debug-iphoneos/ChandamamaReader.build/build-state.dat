@@ -1,61 +1,61 @@
 TChandamamaReader
 v7
 r0
-t311977805.787790
+t312030826.281165
 cCheck dependencies
 cCpResource build/Debug-iphoneos/ChandamamaReader.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Info.plist ChandamamaReader-Info.plist
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-iPad.png Icon-iPad.png
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default@2x.png Default@2x.png
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon.png nextIcon.png
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon@2x.png nextIcon@2x.png
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon.png previousIcon.png
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon@2x.png previousIcon@2x.png
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default.png Default.png
-cCompileXIB /Users/prashantvc/Projects/ChandamamaReader/ComicViewController.xib
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small@2x.png Icon-Small@2x.png
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small.png Icon-Small.png
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon.png Icon.png
-cCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon@2x.png Icon@2x.png
-cCompileXIB /Users/prashantvc/Projects/ChandamamaReader/MainWindow.xib
-cCopyPlistFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/EnglishList.plist EnglishList.plist
-cCopyPlistFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ComicLanguages.plist ComicLanguages.plist
-cCopyPlistFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/KannadaList.plist KannadaList.plist
-cCopyPlistFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/MalayalamList.plist MalayalamList.plist
-cCompileXIB /Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.xib
-cCompileXIB /Users/prashantvc/Projects/ChandamamaReader/RootViewController.xib
-cProcessPCH /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-clxrxjtpkomycmaepgycnwgqhton/ChandamamaReader_Prefix.pch.gch ChandamamaReader_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ewjccjadlrpmimeypwusqmshmyof/ChandamamaReader_Prefix.pch.gch ChandamamaReader_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/main.o /Users/prashantvc/Projects/ChandamamaReader/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/IssueProperties.o /Users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicDataParser.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicDataParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/GDataXMLNode.o /Users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Utilities.o /Users/prashantvc/Projects/ChandamamaReader/Classes/Utilities.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ImageScrollView.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ImageScrollView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReaderAppDelegate.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PublicationList.o /Users/prashantvc/Projects/ChandamamaReader/Classes/PublicationList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicViewController.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PageService.o /Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Settings.o /Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader normal armv6
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/main.o /Users/prashantvc/Projects/ChandamamaReader/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/IssueProperties.o /Users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicDataParser.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicDataParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/GDataXMLNode.o /Users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Utilities.o /Users/prashantvc/Projects/ChandamamaReader/Classes/Utilities.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ImageScrollView.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ImageScrollView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReaderAppDelegate.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PublicationList.o /Users/prashantvc/Projects/ChandamamaReader/Classes/PublicationList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicViewController.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PageService.o /Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Settings.o /Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader normal armv7
-cCreateUniversalBinary /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader normal "armv6 armv7"
-cGenerateDSYMFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app.dSYM /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader
-cProcessProductPackaging "/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/C2603666-3D20-4FAD-B96D-3B764E3777E6.mobileprovision" /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision
-cTouch /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent
-cCodeSign /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
+cProcessInfoPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Info.plist ChandamamaReader-Info.plist
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-iPad.png Icon-iPad.png
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default@2x.png Default@2x.png
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon.png nextIcon.png
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon@2x.png nextIcon@2x.png
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon.png previousIcon.png
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon@2x.png previousIcon@2x.png
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default.png Default.png
+cCompileXIB /Users/prashantvc/ChandamamaReader/ComicViewController.xib
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small@2x.png Icon-Small@2x.png
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small.png Icon-Small.png
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon.png Icon.png
+cCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon@2x.png Icon@2x.png
+cCompileXIB /Users/prashantvc/ChandamamaReader/MainWindow.xib
+cCopyPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/EnglishList.plist EnglishList.plist
+cCopyPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ComicLanguages.plist ComicLanguages.plist
+cCopyPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/KannadaList.plist KannadaList.plist
+cCopyPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/MalayalamList.plist MalayalamList.plist
+cCompileXIB /Users/prashantvc/ChandamamaReader/Classes/Settings.xib
+cCompileXIB /Users/prashantvc/ChandamamaReader/RootViewController.xib
+cProcessPCH /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch.gch ChandamamaReader_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch.gch ChandamamaReader_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/main.o /Users/prashantvc/ChandamamaReader/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/IssueProperties.o /Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicDataParser.o /Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/GDataXMLNode.o /Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Utilities.o /Users/prashantvc/ChandamamaReader/Classes/Utilities.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ImageScrollView.o /Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReaderAppDelegate.o /Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PublicationList.o /Users/prashantvc/ChandamamaReader/Classes/PublicationList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicViewController.o /Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PageService.o /Users/prashantvc/ChandamamaReader/Classes/PageService.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Settings.o /Users/prashantvc/ChandamamaReader/Classes/Settings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader normal armv6
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/main.o /Users/prashantvc/ChandamamaReader/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/IssueProperties.o /Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicDataParser.o /Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/GDataXMLNode.o /Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Utilities.o /Users/prashantvc/ChandamamaReader/Classes/Utilities.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ImageScrollView.o /Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReaderAppDelegate.o /Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PublicationList.o /Users/prashantvc/ChandamamaReader/Classes/PublicationList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicViewController.o /Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PageService.o /Users/prashantvc/ChandamamaReader/Classes/PageService.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Settings.o /Users/prashantvc/ChandamamaReader/Classes/Settings.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader normal armv7
+cCreateUniversalBinary /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader normal "armv6 armv7"
+cGenerateDSYMFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app.dSYM /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader
+cProcessProductPackaging "/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/C2603666-3D20-4FAD-B96D-3B764E3777E6.mobileprovision" /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision
+cTouch /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent
+cCodeSign /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
 c000000004C05C1B10000000000000110
@@ -166,6 +166,499 @@ N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/inclu
 c000000004C5A50CC0000000000004BF8
 t1280987340
 s19448
+
+N/Users/prashantvc/ChandamamaReader/ChandamamaReader_Prefix.pch
+c000000004CE8FCEF0000000000000152
+t1290337519
+s338
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/prashantvc/ChandamamaReader/Classes/ChandamamaConstants.h
+c000000004CE8FCCD0000000000000166
+t1290337485
+s358
+
+N/Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.h
+c000000004CE8FCCD00000000000001F8
+t1290337485
+s504
+i<UIKit/UIKit.h>
+
+N/Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m
+c000000004CE8FCCD0000000000000AC8
+t1290337485
+s2760
+i"ChandamamaReaderAppDelegate.h"
+i"PublicationList.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.h
+c000000004CE8FCCD0000000000000432
+t1290337485
+s1074
+i<Foundation/Foundation.h>
+i"ComicServiceProtocol.h"
+i"Utilities.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m
+c000000004CE8FCCD0000000000001073
+t1290337485
+s4211
+i"ComicDataParser.h"
+i"IssueProperties.h"
+i"GDataXMLNode.h"
+i"Utilities.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/ComicServiceProtocol.h
+c000000004CE8FCCD000000000000011E
+t1290337485
+s286
+
+N/Users/prashantvc/ChandamamaReader/Classes/ComicViewController.h
+c000000004CE8FCCD0000000000000550
+t1290337485
+s1360
+i<UIKit/UIKit.h>
+i"ComicDataParser.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m
+c000000004CE8FCCD0000000000002419
+t1290337485
+s9241
+i"ComicViewController.h"
+i"ImageScrollView.h"
+i"ComicDataParser.h"
+i"IssueProperties.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.h
+c000000004CE8FCCD0000000000001BDD
+t1290337485
+s7133
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+i<libxml/parser.h>
+i<libxml/xmlstring.h>
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+i"GDataDefines.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m
+c000000004CE8FCCD000000000000C8CC
+t1290337485
+s51404
+i"GDataXMLNode.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.h
+c000000004CE8FEB50000000000000265
+t1290337973
+s613
+i<UIKit/UIKit.h>
+i"PageServiceDelegate.h"
+i"PageService.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m
+c000000004CE8FE8A0000000000001AEC
+t1290337930
+s6892
+i"ImageScrollView.h"
+i"ChandamamaConstants.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/IssueProperties.h
+c000000004CE8FCCD000000000000023E
+t1290337485
+s574
+i<Foundation/Foundation.h>
+
+N/Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m
+c000000004CE8FCCD00000000000002A6
+t1290337485
+s678
+i"IssueProperties.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/ModalViewDelegate.h
+c000000004CE8FCCD00000000000000F8
+t1290337485
+s248
+i<UIKit/UIKit.h>
+
+N/Users/prashantvc/ChandamamaReader/Classes/PageService.h
+c000000004CE8FCCD0000000000000208
+t1290337485
+s520
+i<Foundation/Foundation.h>
+i"PageServiceDelegate.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/PageService.m
+c000000004CE8FCCD0000000000000631
+t1290337485
+s1585
+i"PageService.h"
+i"PageServiceDelegate.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/PageServiceDelegate.h
+c000000004CE8FCCD0000000000000129
+t1290337485
+s297
+i<UIKit/UIKit.h>
+
+N/Users/prashantvc/ChandamamaReader/Classes/PublicationList.h
+c000000004CE8FCCD000000000000034D
+t1290337485
+s845
+i<UIKit/UIKit.h>
+i"ModalViewDelegate.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/PublicationList.m
+c000000004CE8FED100000000000015A8
+t1290338001
+s5544
+i"PublicationList.h"
+i"ChandamamaConstants.h"
+i"ComicViewController.h"
+i"Settings.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/Settings.h
+c000000004CE8FCCD00000000000002D7
+t1290337485
+s727
+i<UIKit/UIKit.h>
+i"ModalViewDelegate.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/Settings.m
+c000000004CE8FCCD0000000000000E4C
+t1290337485
+s3660
+i"Settings.h"
+i"ChandamamaConstants.h"
+
+N/Users/prashantvc/ChandamamaReader/Classes/Settings.xib
+c000000004CE8FCCD0000000000003715
+t1290337485
+s14101
+
+N/Users/prashantvc/ChandamamaReader/Classes/Utilities.h
+c000000004CE8FCCD0000000000000235
+t1290337485
+s565
+i<Foundation/Foundation.h>
+
+N/Users/prashantvc/ChandamamaReader/Classes/Utilities.m
+c000000004CE8FCCD0000000000000C0D
+t1290337485
+s3085
+i"Utilities.h"
+i"ChandamamaConstants.h"
+
+N/Users/prashantvc/ChandamamaReader/ComicLanguages.plist
+c000000004CE8FCEF00000000000007F0
+t1290337519
+s2032
+
+N/Users/prashantvc/ChandamamaReader/ComicViewController.xib
+c000000004CE8FCEF0000000000004641
+t1290337519
+s17985
+
+N/Users/prashantvc/ChandamamaReader/Default.png
+c000000004CE8FCEF000000000000254A
+t1290337519
+s9546
+
+N/Users/prashantvc/ChandamamaReader/Default@2x.png
+c000000004CE8FCEF00000000000027EA
+t1290337519
+s10218
+
+N/Users/prashantvc/ChandamamaReader/EnglishList.plist
+c000000004CE8FCEF0000000000003C29
+t1290337519
+s15401
+
+N/Users/prashantvc/ChandamamaReader/Icon-Small.png
+c000000004CE8FCEF00000000000002F0
+t1290337519
+s752
+
+N/Users/prashantvc/ChandamamaReader/Icon-Small@2x.png
+c000000004CE8FCEF0000000000000949
+t1290337519
+s2377
+
+N/Users/prashantvc/ChandamamaReader/Icon-iPad.png
+c000000004CE8FCEF0000000000002821
+t1290337519
+s10273
+
+N/Users/prashantvc/ChandamamaReader/Icon.png
+c000000004CE8FCEF00000000000008EC
+t1290337519
+s2284
+
+N/Users/prashantvc/ChandamamaReader/Icon@2x.png
+c000000004CE8FCEF0000000000001F72
+t1290337519
+s8050
+
+N/Users/prashantvc/ChandamamaReader/KannadaList.plist
+c000000004CE8FCEF0000000000004B4F
+t1290337519
+s19279
+
+N/Users/prashantvc/ChandamamaReader/MainWindow.xib
+c000000004CE8FCEF0000000000005D6F
+t1290337519
+s23919
+
+N/Users/prashantvc/ChandamamaReader/MalayalamList.plist
+c000000004CE8FCEF000000000000432F
+t1290337519
+s17199
+
+N/Users/prashantvc/ChandamamaReader/RootViewController.xib
+c000000004CE8FCEF000000000000445B
+t1290337519
+s17499
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent
+t1290337940
+s436
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader
+t1290338003
+s122156
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader.LinkFileList
+c000000004CE8FE8F0000000000000600
+t1290337935
+s1536
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReaderAppDelegate.o
+t1290337939
+s49428
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicDataParser.o
+t1290337939
+s26972
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicViewController.o
+t1290337975
+s81920
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/GDataXMLNode.o
+t1290337939
+s88976
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ImageScrollView.o
+t1290337974
+s60672
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/IssueProperties.o
+t1290337939
+s8652
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PageService.o
+t1290337939
+s14380
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PublicationList.o
+t1290338002
+s59288
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Settings.o
+t1290337939
+s46952
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Utilities.o
+t1290337939
+s45604
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/main.o
+t1290337939
+s6440
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader
+t1290338003
+s117544
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader.LinkFileList
+c000000004CE8FE8F0000000000000600
+t1290337935
+s1536
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReaderAppDelegate.o
+t1290337940
+s49348
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicDataParser.o
+t1290337940
+s26260
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicViewController.o
+t1290337975
+s80472
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/GDataXMLNode.o
+t1290337940
+s85876
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ImageScrollView.o
+t1290337975
+s59940
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/IssueProperties.o
+t1290337940
+s8608
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PageService.o
+t1290337940
+s14268
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PublicationList.o
+t1290338002
+s58592
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Settings.o
+t1290337940
+s46664
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Utilities.o
+t1290337940
+s45416
+
+N/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/main.o
+t1290337939
+s6424
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
+t1290338003
+s986
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app.dSYM
+t1290338003
+s136
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader
+t1290338003
+s259152
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ComicLanguages.plist
+t1290337937
+s469
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ComicViewController.nib
+t1290337936
+s1717
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default.png
+t1290337936
+s7368
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default@2x.png
+t1290337936
+s10366
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/EnglishList.plist
+t1290337937
+s1095
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small.png
+t1290337936
+s808
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small@2x.png
+t1290337936
+s2530
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-iPad.png
+t1290337936
+s10976
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon.png
+t1290337936
+s2451
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon@2x.png
+t1290337936
+s8532
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Info.plist
+t1290337935
+s915
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/KannadaList.plist
+t1290337937
+s1596
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/MainWindow.nib
+t1290337936
+s2486
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/MalayalamList.plist
+t1290337937
+s1197
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/PkgInfo
+t1290337935
+s8
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ResourceRules.plist
+t1290337495
+s485
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/RootViewController.nib
+t1290337937
+s1518
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Settings.nib
+t1290337495
+s2932
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision
+t1290337495
+s7159
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon.png
+t1290337936
+s315
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon@2x.png
+t1290337936
+s3077
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon.png
+t1290337936
+s325
+
+N/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon@2x.png
+t1290337936
+s3081
+
+N/Users/prashantvc/ChandamamaReader/main.m
+c000000004CE8FCEF000000000000017C
+t1290337519
+s380
+i<UIKit/UIKit.h>
+
+N/Users/prashantvc/ChandamamaReader/nextIcon.png
+c000000004CE8FCEF00000000000000F1
+t1290337519
+s241
+
+N/Users/prashantvc/ChandamamaReader/nextIcon@2x.png
+c000000004CE8FCEF0000000000000C15
+t1290337519
+s3093
+
+N/Users/prashantvc/ChandamamaReader/previousIcon.png
+c000000004CE8FCEF00000000000000FF
+t1290337519
+s255
+
+N/Users/prashantvc/ChandamamaReader/previousIcon@2x.png
+c000000004CE8FCEF0000000000000C26
+t1290337519
+s3110
 
 N/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/046A5F25-B80D-4D30-B398-6E959B4EA7F8.mobileprovision
 c000000004CA555E20000000000001C09
@@ -1541,13 +2034,21 @@ N/var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1287233820
 s2606112
 
+N/var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch.gch
+t1290337938
+s10294832
+
+N/var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch.gch
+t1290337939
+s9831984
+
 N/var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-hgecyhbttplzgebqjvfmttnbvmva/ChandamamaReader_Prefix.pch.pth
 t1287233820
 s2605936
 
 NChandamamaReader-Info.plist
-c000000004CD1315E000000000000045A
-t1288778078
+c000000004CE8FCEF000000000000045A
+t1290337519
 s1114
 
 CAnalyze /Users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m
@@ -1656,7 +2157,15 @@ lSLF07#2@58"Analyze /Users/prashantvc/Projects/ChandamamaReader/main.m310237172#
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311977805#311977805#0(0"0(0#1#0"8658642560#0"0#
+lSLF07#2@18"Check dependencies312030826#312030826#0(0"0(0#1#0"8624093536#0"0#
+
+CCodeSign /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
+s312030803.551507
+e312030803.795134
+r1
+xCodeSign
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
+lSLF07#2@50"CodeSign build/Debug-iphoneos/ChandamamaReader.app312030803#312030803#0(0"0(0#0#76"/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app8627232672#677"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Prashant V C (C376CUTTZC)" --resource-rules=/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ResourceRules.plist --entitlements /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app0#
 
 CCodeSign /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
 s311977802.009449
@@ -1674,6 +2183,19 @@ xCodeSign
 x/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
 o/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app: replacing existing signature
 lSLF07#2@50"CodeSign build/Debug-iphoneos/ChandamamaReader.app309537703#309537704#0(116"/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app: replacing existing signature0(0#0#85"/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app8619090080#713"    cd /users/prashantvc/Projects/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Prashant V C (C376CUTTZC)" --resource-rules=/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ResourceRules.plist --entitlements /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent /users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app0#
+
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReaderAppDelegate.o /Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030739.606239
+e312030739.692294
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReaderAppDelegate.o
+x/Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m312030739#312030739#0(0"0(0#0#72"/Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m8628787680#2006"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReaderAppDelegate.o0#
 
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReaderAppDelegate.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311976534.838464
@@ -1700,6 +2222,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@89"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m309537321#309537322#0(0"0(0#0#81"/users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m8615986048#2105"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ataleztjrtxdvagekjtgsqncfxsh/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReaderAppDelegate.o0#
+
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicDataParser.o /Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030739.299405
+e312030739.440626
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicDataParser.o
+x/Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m312030739#312030739#0(0"0(0#0#60"/Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m8624651648#1982"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicDataParser.o0#
 
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicDataParser.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicDataParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311976534.426330
@@ -1745,6 +2280,19 @@ lSLF07#2@74"Compile /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicSer
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicServiceProtocol.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicServiceProtocol.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicViewController.o /Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030774.916796
+e312030775.176574
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicViewController.o
+x/Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m312030774#312030775#0(0"0(0#0#64"/Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m8629355680#1990"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicViewController.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicViewController.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311976534.933076
 e311976535.134794
@@ -1771,6 +2319,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m309537322#309537322#0(0"0(0#0#73"/users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m8613993920#2089"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ataleztjrtxdvagekjtgsqncfxsh/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ComicViewController.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/GDataXMLNode.o /Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030739.300750
+e312030739.694555
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/GDataXMLNode.o
+x/Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m312030739#312030739#0(0"0(0#0#57"/Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m8623613728#1976"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/GDataXMLNode.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/GDataXMLNode.o /Users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311976534.440262
 e311976534.838354
@@ -1796,6 +2357,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@74"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m309537321#309537321#0(0"0(0#0#66"/users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m8616968416#2075"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ataleztjrtxdvagekjtgsqncfxsh/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/GDataXMLNode.o0#
+
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ImageScrollView.o /Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030774.785485
+e312030774.916468
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ImageScrollView.o
+x/Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m312030774#312030774#0(0"0(0#0#60"/Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m8625441440#1982"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ImageScrollView.o0#
 
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ImageScrollView.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ImageScrollView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311976534.661259
@@ -1836,6 +2410,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@74"Compile /Users/prashantvc/Projects/ChandamamaReader/Classes/ImageService.m310239601#310239601#0(0"0(0#0#66"/Users/prashantvc/Projects/ChandamamaReader/Classes/ImageService.m8656268864#2075"    cd /Users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-clxrxjtpkomycmaepgycnwgqhton/ChandamamaReader_Prefix.pch -c /Users/prashantvc/Projects/ChandamamaReader/Classes/ImageService.m -o /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ImageService.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/IssueProperties.o /Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030739.153315
+e312030739.300665
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/IssueProperties.o
+x/Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m312030739#312030739#0(0"0(0#0#60"/Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m8629621056#1982"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/IssueProperties.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/IssueProperties.o /Users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311976534.368883
 e311976534.440150
@@ -1862,6 +2449,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m309537321#309537321#0(0"0(0#0#69"/users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m8615425024#2081"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ataleztjrtxdvagekjtgsqncfxsh/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/IssueProperties.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PageService.o /Users/prashantvc/ChandamamaReader/Classes/PageService.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030739.797013
+e312030739.873966
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PageService.o
+x/Users/prashantvc/ChandamamaReader/Classes/PageService.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/prashantvc/ChandamamaReader/Classes/PageService.m312030739#312030739#0(0"0(0#0#56"/Users/prashantvc/ChandamamaReader/Classes/PageService.m8628195776#1974"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/PageService.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PageService.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PageService.o /Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311976535.050865
 e311976535.136221
@@ -1874,6 +2474,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m311976535#311976535#0(0"0(0#0#65"/Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m8622168192#2073"    cd /Users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-clxrxjtpkomycmaepgycnwgqhton/ChandamamaReader_Prefix.pch -c /Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m -o /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PageService.o0#
+
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PublicationList.o /Users/prashantvc/ChandamamaReader/Classes/PublicationList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030802.495582
+e312030802.689302
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PublicationList.o
+x/Users/prashantvc/ChandamamaReader/Classes/PublicationList.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/prashantvc/ChandamamaReader/Classes/PublicationList.m312030802#312030802#0(0"0(0#0#60"/Users/prashantvc/ChandamamaReader/Classes/PublicationList.m8628151488#1982"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/PublicationList.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PublicationList.o0#
 
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/PublicationList.o /Users/prashantvc/Projects/ChandamamaReader/Classes/PublicationList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311977568.209074
@@ -1927,6 +2540,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/RootViewController.m309537321#309537321#0(0"0(0#0#72"/users/prashantvc/Projects/ChandamamaReader/Classes/RootViewController.m8616847488#2087"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ataleztjrtxdvagekjtgsqncfxsh/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/RootViewController.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/RootViewController.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Settings.o /Users/prashantvc/ChandamamaReader/Classes/Settings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030739.849277
+e312030739.959436
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Settings.o
+x/Users/prashantvc/ChandamamaReader/Classes/Settings.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/prashantvc/ChandamamaReader/Classes/Settings.m312030739#312030739#0(0"0(0#0#53"/Users/prashantvc/ChandamamaReader/Classes/Settings.m8627668672#1968"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/Settings.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Settings.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Settings.o /Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311977229.789552
 e311977229.966910
@@ -1939,6 +2565,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@70"Compile /Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m311977229#311977229#0(0"0(0#0#62"/Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m8644897568#2067"    cd /Users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-clxrxjtpkomycmaepgycnwgqhton/ChandamamaReader_Prefix.pch -c /Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m -o /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Settings.o0#
+
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Utilities.o /Users/prashantvc/ChandamamaReader/Classes/Utilities.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030739.440730
+e312030739.527285
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Utilities.o
+x/Users/prashantvc/ChandamamaReader/Classes/Utilities.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/prashantvc/ChandamamaReader/Classes/Utilities.m312030739#312030739#0(0"0(0#0#54"/Users/prashantvc/ChandamamaReader/Classes/Utilities.m8628471136#1970"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/Utilities.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Utilities.o0#
 
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/Utilities.o /Users/prashantvc/Projects/ChandamamaReader/Classes/Utilities.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311976534.574913
@@ -1985,6 +2624,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/asyncimageview.m309537321#309537321#0(0"0(0#0#68"/users/prashantvc/Projects/ChandamamaReader/Classes/asyncimageview.m8615547264#2079"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ataleztjrtxdvagekjtgsqncfxsh/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/asyncimageview.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/asyncimageview.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/main.o /Users/prashantvc/ChandamamaReader/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030739.151734
+e312030739.299297
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/main.o
+x/Users/prashantvc/ChandamamaReader/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/prashantvc/ChandamamaReader/main.m312030739#312030739#0(0"0(0#0#41"/Users/prashantvc/ChandamamaReader/main.m8629187456#1952"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/main.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/main.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/main.o /Users/prashantvc/Projects/ChandamamaReader/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s311976534.367547
 e311976534.426213
@@ -2011,6 +2663,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@58"Compile /users/prashantvc/Projects/ChandamamaReader/main.m309537321#309537321#0(0"0(0#0#50"/users/prashantvc/Projects/ChandamamaReader/main.m8615674432#2051"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ataleztjrtxdvagekjtgsqncfxsh/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/main.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/main.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReaderAppDelegate.o /Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030740.273749
+e312030740.351976
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReaderAppDelegate.o
+x/Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m312030740#312030740#0(0"0(0#0#72"/Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m8622960064#2006"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReaderAppDelegate.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReaderAppDelegate.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311976535.714661
 e311976535.807573
@@ -2036,6 +2701,19 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@89"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m309537322#309537322#0(0"0(0#0#81"/users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m8616316960#2105"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-blflyzvvbnmwnwbxslvszttietzx/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/ChandamamaReaderAppDelegate.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReaderAppDelegate.o0#
+
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicDataParser.o /Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030739.959540
+e312030740.125496
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicDataParser.o
+x/Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m312030739#312030740#0(0"0(0#0#60"/Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m8624382432#1982"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/ComicDataParser.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicDataParser.o0#
 
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicDataParser.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicDataParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311976535.307232
@@ -2081,6 +2759,19 @@ lSLF07#2@74"Compile /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicSer
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicServiceProtocol.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicServiceProtocol.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicViewController.o /Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030775.176682
+e312030775.334933
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicViewController.o
+x/Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m312030775#312030775#0(0"0(0#0#64"/Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m8628916416#1990"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/ComicViewController.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicViewController.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicViewController.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311976535.807688
 e311976536.046817
@@ -2107,6 +2798,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m309537322#309537323#0(0"0(0#0#73"/users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m8614550176#2089"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-blflyzvvbnmwnwbxslvszttietzx/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ComicViewController.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/GDataXMLNode.o /Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030740.019935
+e312030740.435586
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/GDataXMLNode.o
+x/Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m312030740#312030740#0(0"0(0#0#57"/Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m8622484288#1976"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/GDataXMLNode.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/GDataXMLNode.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/GDataXMLNode.o /Users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311976535.318452
 e311976535.714552
@@ -2132,6 +2836,19 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@74"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m309537322#309537322#0(0"0(0#0#66"/users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m8616289536#2075"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-blflyzvvbnmwnwbxslvszttietzx/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/GDataXMLNode.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/GDataXMLNode.o0#
+
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ImageScrollView.o /Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030774.934052
+e312030775.056115
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ImageScrollView.o
+x/Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m312030774#312030775#0(0"0(0#0#60"/Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m8627673216#1982"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/ImageScrollView.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ImageScrollView.o0#
 
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ImageScrollView.o /Users/prashantvc/Projects/ChandamamaReader/Classes/ImageScrollView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311976535.560272
@@ -2172,6 +2889,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@74"Compile /Users/prashantvc/Projects/ChandamamaReader/Classes/ImageService.m310239601#310239601#0(0"0(0#0#66"/Users/prashantvc/Projects/ChandamamaReader/Classes/ImageService.m8653204736#2075"    cd /Users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ewjccjadlrpmimeypwusqmshmyof/ChandamamaReader_Prefix.pch -c /Users/prashantvc/Projects/ChandamamaReader/Classes/ImageService.m -o /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ImageService.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/IssueProperties.o /Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030739.944699
+e312030740.019822
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/IssueProperties.o
+x/Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m312030739#312030740#0(0"0(0#0#60"/Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m8623358464#1982"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/IssueProperties.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/IssueProperties.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/IssueProperties.o /Users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311976535.242966
 e311976535.318343
@@ -2198,6 +2928,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m309537322#309537322#0(0"0(0#0#69"/users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m8616431008#2081"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-blflyzvvbnmwnwbxslvszttietzx/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/IssueProperties.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/IssueProperties.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PageService.o /Users/prashantvc/ChandamamaReader/Classes/PageService.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030740.492932
+e312030740.575083
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PageService.o
+x/Users/prashantvc/ChandamamaReader/Classes/PageService.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/prashantvc/ChandamamaReader/Classes/PageService.m312030740#312030740#0(0"0(0#0#56"/Users/prashantvc/ChandamamaReader/Classes/PageService.m8626816384#1974"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/PageService.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PageService.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PageService.o /Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311976535.970974
 e311976536.050690
@@ -2210,6 +2953,19 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m311976535#311976536#0(0"0(0#0#65"/Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m8665146368#2073"    cd /Users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ewjccjadlrpmimeypwusqmshmyof/ChandamamaReader_Prefix.pch -c /Users/prashantvc/Projects/ChandamamaReader/Classes/PageService.m -o /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PageService.o0#
+
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PublicationList.o /Users/prashantvc/ChandamamaReader/Classes/PublicationList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030802.545621
+e312030802.676637
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PublicationList.o
+x/Users/prashantvc/ChandamamaReader/Classes/PublicationList.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/prashantvc/ChandamamaReader/Classes/PublicationList.m312030802#312030802#0(0"0(0#0#60"/Users/prashantvc/ChandamamaReader/Classes/PublicationList.m7074717844446995456#1982"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/PublicationList.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PublicationList.o0#
 
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/PublicationList.o /Users/prashantvc/Projects/ChandamamaReader/Classes/PublicationList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311977568.275554
@@ -2263,6 +3019,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/RootViewController.m309537322#309537322#0(0"0(0#0#72"/users/prashantvc/Projects/ChandamamaReader/Classes/RootViewController.m8617076064#2087"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-blflyzvvbnmwnwbxslvszttietzx/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/RootViewController.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/RootViewController.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Settings.o /Users/prashantvc/ChandamamaReader/Classes/Settings.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030740.527841
+e312030740.628014
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Settings.o
+x/Users/prashantvc/ChandamamaReader/Classes/Settings.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/prashantvc/ChandamamaReader/Classes/Settings.m312030740#312030740#0(0"0(0#0#53"/Users/prashantvc/ChandamamaReader/Classes/Settings.m8624825344#1968"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/Settings.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Settings.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Settings.o /Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311977229.849619
 e311977229.961729
@@ -2275,6 +3044,19 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@70"Compile /Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m311977229#311977229#0(0"0(0#0#62"/Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m8644775328#2067"    cd /Users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-ewjccjadlrpmimeypwusqmshmyof/ChandamamaReader_Prefix.pch -c /Users/prashantvc/Projects/ChandamamaReader/Classes/Settings.m -o /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Settings.o0#
+
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Utilities.o /Users/prashantvc/ChandamamaReader/Classes/Utilities.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030740.125603
+e312030740.211649
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Utilities.o
+x/Users/prashantvc/ChandamamaReader/Classes/Utilities.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/prashantvc/ChandamamaReader/Classes/Utilities.m312030740#312030740#0(0"0(0#0#54"/Users/prashantvc/ChandamamaReader/Classes/Utilities.m8627673216#1970"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/Classes/Utilities.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Utilities.o0#
 
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/Utilities.o /Users/prashantvc/Projects/ChandamamaReader/Classes/Utilities.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311976535.471389
@@ -2321,6 +3103,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /users/prashantvc/Projects/ChandamamaReader/Classes/asyncimageview.m309537322#309537322#0(0"0(0#0#68"/users/prashantvc/Projects/ChandamamaReader/Classes/asyncimageview.m8615381856#2079"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-blflyzvvbnmwnwbxslvszttietzx/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/Classes/asyncimageview.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/asyncimageview.o0#
 
+CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/main.o /Users/prashantvc/ChandamamaReader/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030739.874088
+e312030739.944594
+r1
+xCompileC
+xbuild/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/main.o
+x/Users/prashantvc/ChandamamaReader/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/prashantvc/ChandamamaReader/main.m312030739#312030739#0(0"0(0#0#41"/Users/prashantvc/ChandamamaReader/main.m8627511680#1952"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch -c /Users/prashantvc/ChandamamaReader/main.m -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/main.o0#
+
 CCompileC build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/main.o /Users/prashantvc/Projects/ChandamamaReader/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s311976535.136318
 e311976535.242865
@@ -2346,6 +3141,33 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@58"Compile /users/prashantvc/Projects/ChandamamaReader/main.m309537322#309537322#0(0"0(0#0#50"/users/prashantvc/Projects/ChandamamaReader/main.m8617031712#2051"    cd /users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -include /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-blflyzvvbnmwnwbxslvszttietzx/ChandamamaReader_Prefix.pch -c /users/prashantvc/Projects/ChandamamaReader/main.m -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/prashantvc/ChandamamaReader/Classes/Settings.xib
+r0
+
+CCompileXIB /Users/prashantvc/ChandamamaReader/ComicViewController.xib
+s312030736.341557
+e312030736.812445
+r1
+xCompileXIB
+x/Users/prashantvc/ChandamamaReader/ComicViewController.xib
+lSLF07#2@34"CompileXIB ComicViewController.xib312030736#312030736#0(0"0(0#0#58"/Users/prashantvc/ChandamamaReader/ComicViewController.xib8622183584#557"    cd /Users/prashantvc/ChandamamaReader    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ComicViewController.nib /Users/prashantvc/ChandamamaReader/ComicViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/prashantvc/ChandamamaReader/MainWindow.xib
+s312030736.508022
+e312030736.943337
+r1
+xCompileXIB
+x/Users/prashantvc/ChandamamaReader/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312030736#312030736#0(0"0(0#0#49"/Users/prashantvc/ChandamamaReader/MainWindow.xib8629350144#539"    cd /Users/prashantvc/ChandamamaReader    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/MainWindow.nib /Users/prashantvc/ChandamamaReader/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/prashantvc/ChandamamaReader/RootViewController.xib
+s312030737.080905
+e312030737.466670
+r1
+xCompileXIB
+x/Users/prashantvc/ChandamamaReader/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib312030737#312030737#0(0"0(0#0#57"/Users/prashantvc/ChandamamaReader/RootViewController.xib8626744896#555"    cd /Users/prashantvc/ChandamamaReader    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/RootViewController.nib /Users/prashantvc/ChandamamaReader/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
 
 CCompileXIB /Users/prashantvc/Projects/ChandamamaReader/Classes/ComicViewController.xib
 s308947174.907490
@@ -2440,6 +3262,105 @@ r1
 xCompileXIB
 x/users/prashantvc/Projects/ChandamamaReader/RootViewController.xib
 lSLF07#2@33"CompileXIB RootViewController.xib309537319#309537320#0(0"0(0#0#66"/users/prashantvc/Projects/ChandamamaReader/RootViewController.xib8616031424#582"    cd /users/prashantvc/Projects/ChandamamaReader    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/RootViewController.nib /users/prashantvc/Projects/ChandamamaReader/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default.png Default.png
+s312030736.322094
+e312030736.384134
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default.png
+xDefault.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/Default.png Default.png312030736#312030736#0(0"0(0#0#46"/Users/prashantvc/ChandamamaReader/Default.png8622814624#559"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/Default.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default@2x.png Default@2x.png
+s312030735.984180
+e312030736.341459
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default@2x.png
+xDefault@2x.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/Default@2x.png Default@2x.png312030735#312030736#0(0"0(0#0#49"/Users/prashantvc/ChandamamaReader/Default@2x.png8628525792#565"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/Default@2x.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Default@2x.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small.png Icon-Small.png
+s312030736.410806
+e312030736.441524
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small.png
+xIcon-Small.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/Icon-Small.png Icon-Small.png312030736#312030736#0(0"0(0#0#49"/Users/prashantvc/ChandamamaReader/Icon-Small.png8624052096#565"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/Icon-Small.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small@2x.png Icon-Small@2x.png
+s312030736.384313
+e312030736.410696
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small@2x.png
+xIcon-Small@2x.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/Icon-Small@2x.png Icon-Small@2x.png312030736#312030736#0(0"0(0#0#52"/Users/prashantvc/ChandamamaReader/Icon-Small@2x.png8616527136#571"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/Icon-Small@2x.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-Small@2x.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-iPad.png Icon-iPad.png
+s312030735.982394
+e312030736.218631
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-iPad.png
+xIcon-iPad.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/Icon-iPad.png Icon-iPad.png312030735#312030736#0(0"0(0#0#48"/Users/prashantvc/ChandamamaReader/Icon-iPad.png8628786464#563"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/Icon-iPad.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon-iPad.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon.png Icon.png
+s312030736.441622
+e312030736.468068
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon.png
+xIcon.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/Icon.png Icon.png312030736#312030736#0(0"0(0#0#43"/Users/prashantvc/ChandamamaReader/Icon.png8623134176#553"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/Icon.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon@2x.png Icon@2x.png
+s312030736.468166
+e312030736.507933
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon@2x.png
+xIcon@2x.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/Icon@2x.png Icon@2x.png312030736#312030736#0(0"0(0#0#46"/Users/prashantvc/ChandamamaReader/Icon@2x.png8622160928#559"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/Icon@2x.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Icon@2x.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon.png nextIcon.png
+s312030736.218721
+e312030736.244623
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon.png
+xnextIcon.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/nextIcon.png nextIcon.png312030736#312030736#0(0"0(0#0#47"/Users/prashantvc/ChandamamaReader/nextIcon.png8625437856#561"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/nextIcon.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon@2x.png nextIcon@2x.png
+s312030736.244723
+e312030736.270786
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon@2x.png
+xnextIcon@2x.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/nextIcon@2x.png nextIcon@2x.png312030736#312030736#0(0"0(0#0#50"/Users/prashantvc/ChandamamaReader/nextIcon@2x.png8623287232#567"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/nextIcon@2x.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/nextIcon@2x.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon.png previousIcon.png
+s312030736.270885
+e312030736.294680
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon.png
+xpreviousIcon.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/previousIcon.png previousIcon.png312030736#312030736#0(0"0(0#0#51"/Users/prashantvc/ChandamamaReader/previousIcon.png8623026400#569"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/previousIcon.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon.png0#
+
+CCopyPNGFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon@2x.png previousIcon@2x.png
+s312030736.294803
+e312030736.321979
+r1
+xCopyPNGFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon@2x.png
+xpreviousIcon@2x.png
+lSLF07#2@93"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/previousIcon@2x.png previousIcon@2x.png312030736#312030736#0(0"0(0#0#54"/Users/prashantvc/ChandamamaReader/previousIcon@2x.png8622373696#575"    cd /Users/prashantvc/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/prashantvc/ChandamamaReader/previousIcon@2x.png /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon@2x.png0#
 
 CCopyPNGFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/07-map-marker.png 07-map-marker.png
 s308947175.316420
@@ -2666,6 +3587,42 @@ x/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaRead
 xpreviousIcon@2x.png
 lSLF07#2@93"CopyPNGFile build/Debug-iphoneos/ChandamamaReader.app/previousIcon@2x.png previousIcon@2x.png309537319#309537319#0(0"0(0#0#63"/users/prashantvc/Projects/ChandamamaReader/previousIcon@2x.png8615297760#602"    cd /users/prashantvc/Projects/ChandamamaReader    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /users/prashantvc/Projects/ChandamamaReader/previousIcon@2x.png /users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/previousIcon@2x.png0#
 
+CCopyPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ComicLanguages.plist ComicLanguages.plist
+s312030736.943430
+e312030737.052940
+r1
+xCopyPlistFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ComicLanguages.plist
+xComicLanguages.plist
+lSLF07#2@25"Copy ComicLanguages.plist312030736#312030737#0(0"0(0#0#55"/Users/prashantvc/ChandamamaReader/ComicLanguages.plist8628258336#382"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 ComicLanguages.plist --outdir /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app0#
+
+CCopyPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/EnglishList.plist EnglishList.plist
+s312030736.812546
+e312030737.054107
+r1
+xCopyPlistFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/EnglishList.plist
+xEnglishList.plist
+lSLF07#2@22"Copy EnglishList.plist312030736#312030737#0(0"0(0#0#52"/Users/prashantvc/ChandamamaReader/EnglishList.plist8628608672#379"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 EnglishList.plist --outdir /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app0#
+
+CCopyPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/KannadaList.plist KannadaList.plist
+s312030737.053041
+e312030737.080633
+r1
+xCopyPlistFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/KannadaList.plist
+xKannadaList.plist
+lSLF07#2@22"Copy KannadaList.plist312030737#312030737#0(0"0(0#0#52"/Users/prashantvc/ChandamamaReader/KannadaList.plist8627100064#379"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 KannadaList.plist --outdir /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app0#
+
+CCopyPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/MalayalamList.plist MalayalamList.plist
+s312030737.054180
+e312030737.080801
+r1
+xCopyPlistFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/MalayalamList.plist
+xMalayalamList.plist
+lSLF07#2@24"Copy MalayalamList.plist312030737#312030737#0(0"0(0#0#54"/Users/prashantvc/ChandamamaReader/MalayalamList.plist8626929440#381"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 MalayalamList.plist --outdir /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app0#
+
 CCopyPlistFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader-Info.plist ChandamamaReader-Info.plist
 r0
 
@@ -2795,6 +3752,16 @@ xbuild/Debug-iphoneos/ChandamamaReader.app/iTunesArtwork
 xiTunesArtwork
 lSLF07#2@18"Copy iTunesArtwork309537319#309537319#0(0"0(0#0#57"/users/prashantvc/Projects/ChandamamaReader/iTunesArtwork8616035840#467"    cd /users/prashantvc/Projects/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /users/prashantvc/Projects/ChandamamaReader/iTunesArtwork /users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app0#
 
+CCreateUniversalBinary /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader normal "armv6 armv7"
+s312030803.429235
+e312030803.461269
+r1
+xCreateUniversalBinary
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader
+xnormal
+xarmv6 armv7
+lSLF07#2@101"CreateUniversalBinary build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader normal "armv6 armv7"312030803#312030803#0(0"0(0#0#46"/Users/prashantvc/ChandamamaReader/armv6 armv78623806592#574"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader -output /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader0#
+
 CCreateUniversalBinary /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader normal "armv6 armv7"
 s311977801.932134
 e311977801.939455
@@ -2815,6 +3782,15 @@ xnormal
 xarmv6 armv7
 lSLF07#2@101"CreateUniversalBinary build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader normal "armv6 armv7"309537323#309537323#0(0"0(0#0#55"/users/prashantvc/Projects/ChandamamaReader/armv6 armv78615521696#610"    cd /users/prashantvc/Projects/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader -output /users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader0#
 
+CGenerateDSYMFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app.dSYM /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader
+s312030803.461382
+e312030803.548473
+r1
+xGenerateDSYMFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app.dSYM
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader
+lSLF07#2@122"GenerateDSYMFile build/Debug-iphoneos/ChandamamaReader.app.dSYM build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader312030803#312030803#0(0"0(0#0#93"/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader8623145344#377"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader -o /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app.dSYM0#
+
 CGenerateDSYMFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app.dSYM /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader
 s311977801.939555
 e311977802.002546
@@ -2832,6 +3808,26 @@ xGenerateDSYMFile
 x/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app.dSYM
 x/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader
 lSLF07#2@122"GenerateDSYMFile build/Debug-iphoneos/ChandamamaReader.app.dSYM build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader309537323#309537323#0(0"0(0#0#102"/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader8614185024#404"    cd /users/prashantvc/Projects/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ChandamamaReader -o /users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app.dSYM0#
+
+CLd /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader normal armv6
+s312030802.689403
+e312030803.428706
+r1
+xLd
+x/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader
+xnormal
+xarmv6
+lSLF07#2@144"Link /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader312030802#312030803#0(0"0(0#0#0"8624961472#937"    cd /Users/prashantvc/ChandamamaReader    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -L/Users/prashantvc/ChandamamaReader -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -filelist /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader.LinkFileList -dead_strip -lxml2 -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader0#
+
+CLd /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader normal armv7
+s312030802.677005
+e312030803.429158
+r1
+xLd
+x/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader
+xnormal
+xarmv7
+lSLF07#2@144"Link /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader312030802#312030803#0(0"0(0#0#0"8625317504#937"    cd /Users/prashantvc/ChandamamaReader    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -L/Users/prashantvc/ChandamamaReader -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -filelist /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader.LinkFileList -dead_strip -lxml2 -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader0#
 
 CLd /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv6/ChandamamaReader normal armv6
 s311977801.880688
@@ -2872,6 +3868,15 @@ x/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-
 xnormal
 xarmv7
 lSLF07#2@153"Link /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader309537323#309537323#0(0"0(0#0#0"8616536640#991"    cd /users/prashantvc/Projects/ChandamamaReader    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -L/users/prashantvc/Projects/ChandamamaReader -F/users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -filelist /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader.LinkFileList -dead_strip -lxml2 -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/Objects-normal/armv7/ChandamamaReader0#
+
+CProcessInfoPlistFile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Info.plist ChandamamaReader-Info.plist
+s312030735.964375
+e312030735.982294
+r1
+xProcessInfoPlistFile
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Info.plist
+xChandamamaReader-Info.plist
+lSLF07#2@35"Process ChandamamaReader-Info.plist312030735#312030735#0(0"0(0#0#62"/Users/prashantvc/ChandamamaReader/ChandamamaReader-Info.plist8622018176#582"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ChandamamaReader-Info.plist -genpkginfo /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/ResourceRules.plist -o /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Info.plist0#
 
 CProcessInfoPlistFile /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/Info.plist ChandamamaReader-Info.plist
 s311976531.848340
@@ -3014,6 +4019,32 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.analyzer
 lSLF07#2@38"Precompile ChandamamaReader_Prefix.pch308926620#308926620#0(0"0(0#0#71"/Users/prashantvc/Projects/ChandamamaReader/ChandamamaReader_Prefix.pch8616450496#1946"    cd /Users/prashantvc/Projects/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -c /Users/prashantvc/Projects/ChandamamaReader/ChandamamaReader_Prefix.pch -o /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fncvtjqqdtywurgykdlnkxzircrg/ChandamamaReader_Prefix.pch.pth0#
 
+CProcessPCH /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch.gch ChandamamaReader_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s312030737.468122
+e312030739.062546
+r1
+xProcessPCH
+x/var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch.gch
+xChandamamaReader_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile ChandamamaReader_Prefix.pch312030737#312030739#0(0"0(0#0#62"/Users/prashantvc/ChandamamaReader/ChandamamaReader_Prefix.pch8624458624#1845"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv7 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -c /Users/prashantvc/ChandamamaReader/ChandamamaReader_Prefix.pch -o /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-fxagtyubtfwjkufrmxzapzymxske/ChandamamaReader_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch.gch ChandamamaReader_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s312030737.466886
+e312030739.151571
+r1
+xProcessPCH
+x/var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch.gch
+xChandamamaReader_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile ChandamamaReader_Prefix.pch312030737#312030739#0(0"0(0#0#62"/Users/prashantvc/ChandamamaReader/ChandamamaReader_Prefix.pch8624628576#1845"    cd /Users/prashantvc/ChandamamaReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-generated-files.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-own-target-headers.hmap -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-all-target-headers.hmap -iquote /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader-project-headers.hmap -F/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos -I/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources/armv6 -I/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/DerivedSources -c /Users/prashantvc/ChandamamaReader/ChandamamaReader_Prefix.pch -o /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-glbqwmtucplymjghpoudimcbjegj/ChandamamaReader_Prefix.pch.gch0#
+
 CProcessPCH /var/folders/VE/VEcgEODkGE452EknxHqnsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ChandamamaReader_Prefix-hgecyhbttplzgebqjvfmttnbvmva/ChandamamaReader_Prefix.pch.pth ChandamamaReader_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
 s308926620.301433
 e308926620.820619
@@ -3035,6 +4066,9 @@ xProcessProductPackaging
 x/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/046A5F25-B80D-4D30-B398-6E959B4EA7F8.mobileprovision
 x/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision
 lSLF07#2@206"ProcessProductPackaging "/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/046A5F25-B80D-4D30-B398-6E959B4EA7F8.mobileprovision" build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision308915099#308915099#0(0"0(0#0#110"/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision8614148800#447"    cd /Users/prashantvc/Projects/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/046A5F25-B80D-4D30-B398-6E959B4EA7F8.mobileprovision" -o /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/C2603666-3D20-4FAD-B96D-3B764E3777E6.mobileprovision" /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision
+r0
 
 CProcessProductPackaging "/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/C2603666-3D20-4FAD-B96D-3B764E3777E6.mobileprovision" /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision
 s311976536.253012
@@ -3063,6 +4097,15 @@ x/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/DB2023DC-D795-4E26
 x/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision
 lSLF07#2@206"ProcessProductPackaging "/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/DB2023DC-D795-4E26-B0DB-FECCB99E862A.mobileprovision" build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision308947181#308947181#0(0"0(0#0#110"/Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision8607855584#447"    cd /Users/prashantvc/Projects/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/prashantvc/Library/MobileDevice/Provisioning Profiles/DB2023DC-D795-4E26-B0DB-FECCB99E862A.mobileprovision" -o /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app/embedded.mobileprovision0#
 
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent
+s312030740.628191
+e312030740.642453
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent
+lSLF07#2@202"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent312030740#312030740#0(0"0(0#0#124"/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent8627263808#451"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent0#
+
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent
 s311976536.259858
 e311976536.290942
@@ -3080,6 +4123,14 @@ xProcessProductPackaging
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
 x/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent
 lSLF07#2@202"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent309537323#309537323#0(0"0(0#0#133"/users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent8611712288#469"    cd /users/prashantvc/Projects/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /users/prashantvc/Projects/ChandamamaReader/build/ChandamamaReader.build/Debug-iphoneos/ChandamamaReader.build/ChandamamaReader.xcent0#
+
+CTouch /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
+s312030803.548623
+e312030803.551330
+r1
+xTouch
+x/Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
+lSLF07#2@82"Touch /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app312030803#312030803#0(0"0(0#0#0"8628572256#265"    cd /Users/prashantvc/ChandamamaReader    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/prashantvc/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app0#
 
 CTouch /Users/prashantvc/Projects/ChandamamaReader/build/Debug-iphoneos/ChandamamaReader.app
 s311977802.003190

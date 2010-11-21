@@ -14,6 +14,9 @@
 		self.scrollsToTop=YES;
         self.delegate = self;
     }
+	
+	pageService = [[PageService alloc] initWithImageProtocol:self];
+	
     return self;
 }
 
@@ -23,6 +26,7 @@
 	[connection cancel]; //in case the URL is still downloading
 	[connection release];
 	[data release];
+	[pageService release];
     [super dealloc];
 }
 
@@ -130,56 +134,46 @@
 	[activity startAnimating];
 	[activity release];
 	
-	if (connection!=nil) { [connection release]; connection =nil; } 
-	if (data!=nil) { [data release]; data = nil;}
 	
-	NSURLRequest* request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
-	connection = [[NSURLConnection alloc] initWithRequest:request delegate:self]; //notice how delegate set to self object
-	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+	[pageService loadImage:pageUrl];
 }
 
-
-//the URL connection calls this repeatedly as data arrives
-- (void)connection:(NSURLConnection *)theConnection didReceiveData:(NSData *)incrementalData {	
-	if (data == nil) {
-		data = [[NSMutableData alloc] init];
-	} 
-	 
-	[data appendData:incrementalData];
+//just in case you want to get the image directly, here it is in subviews
+- (UIImage*) image {
+	UIImageView* iv = [[self subviews] objectAtIndex:0];
+	return [iv image];
 }
 
-//the URL connection calls this once all the data has downloaded
-- (void)connectionDidFinishLoading:(NSURLConnection*)theConnection {
+#pragma mark -
+#pragma mark PageServiceDelegate
+
+- (void) pageReceived:(UIImage *)image {
 	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
-	//so self data now has the complete image 
-	[connection release];
-	connection=nil;
+	
 	if ([[self subviews] count]>0) {
 		[[[self subviews] objectAtIndex:0] removeFromSuperview];
 	}
-			
+	
 	// clear the previous imageView
     [imageView removeFromSuperview];
     [imageView release];
     imageView = nil;
-    
-    // reset our zoomScale to 1.0 before doing any further calculations
+	
+	// reset our zoomScale to 1.0 before doing any further calculations
     self.zoomScale = 1.0;
 	
 	// make a new UIImageView for the new image
-	if (data != nil) {
-		UIImage *image = [[UIImage imageWithData:data] retain];
-		imageView = [[UIImageView alloc] initWithImage:image];
+	if (image != nil) {
+		UIImage *page = [image retain];
+		imageView = [[UIImageView alloc] initWithImage:page];
 		[self addSubview:imageView];
-		[self configureForImageSize:[image size]];
-		[image release];
-		
-		[data release];	
-		data = nil;
+		[self configureForImageSize:[page size]];
+		[page release];
 	}
 }
 
-- (void) connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+- (void) pageReceiveFailed {
+	
 	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 	UIAlertView *alert = [[UIAlertView alloc]
 						  initWithTitle:@"Connection Error"
@@ -198,14 +192,6 @@
     [self addSubview:imageView];
     [self configureForImageSize:[image size]];
 	[image release];
-	[data release];
-	data=nil;
-}
-
-//just in case you want to get the image directly, here it is in subviews
-- (UIImage*) image {
-	UIImageView* iv = [[self subviews] objectAtIndex:0];
-	return [iv image];
 }
 
 @end
