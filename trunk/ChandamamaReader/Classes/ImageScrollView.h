@@ -8,10 +8,6 @@
 @interface ImageScrollView : UIScrollView <UIScrollViewDelegate, PageServiceDelegate> {
     UIView        *imageView;
     NSUInteger     index;
-	
-	NSURLConnection* connection; //keep a reference to the connection so we can cancel download in dealloc
-	NSMutableData* data;
-	NSURL *pageUrl;
 	PageService *pageService;
 	
 }
@@ -20,6 +16,6 @@
 - (void)displayImage:(UIImage *)image;
 - (void)configureForImageSize:(CGSize)imageSize;
 
-- (void)loadImageFromURL:(NSURL*)url;
+- (void)loadImageFromURL:(NSURL *)url forLanguage:(NSString*) langauge forYear:(NSString*) year forMonth:(NSString *) month pageNumber:(int) number;
 - (UIImage*) image;
 @end

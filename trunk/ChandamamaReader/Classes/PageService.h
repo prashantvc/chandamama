@@ -16,10 +16,17 @@
 	NSMutableData *data;
 	NSURL *pageUrl;
 	
+	NSString* currentLaguage;
+	NSString* issuedYear;
+	NSString* issuedMonth;
+	int currentPage;
+	
 	id<PageServiceDelegate> pageServiceDelegate;
 }
 
 - (id) initWithImageProtocol:(id<PageServiceDelegate>) protocol; 
-- (void) loadImage:(NSURL *) url;
+- (void) cacheImageWithFilename: (UIImage *) image imageFileName:(NSString *)filename;
+- (UIImage *) getCachedImageForFilename:(NSString *)filename;
+- (void) loadImageFromURL:(NSURL *)url forLanguage:(NSString *)langauge forYear:(NSString *)year forMonth:(NSString *)month pageNumber:(int)number;
 
 @end
