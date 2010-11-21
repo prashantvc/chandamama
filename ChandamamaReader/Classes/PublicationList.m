@@ -10,7 +10,7 @@
 #import "ChandamamaConstants.h"
 #import "ComicViewController.h"
 #import "Settings.h"
-#import "RootViewController.h"
+
 
 
 @implementation PublicationList

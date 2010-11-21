@@ -4,6 +4,186 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.svn/all-wcprops</key>
+		<data>
+		jLP28GUwc1XI9CtmkBFSJze307U=
+		</data>
+		<key>.svn/entries</key>
+		<data>
+		CrQAtGA4VXVMzMPuIBgI6do7zHg=
+		</data>
+		<key>.svn/prop-base/ChandamamaReader.svn-base</key>
+		<data>
+		h+znyyYfCSyvSafI7cmAjOB5io8=
+		</data>
+		<key>.svn/prop-base/CodeResources.svn-base</key>
+		<data>
+		7br256i0hvkOdRVW5rcNry1wIoc=
+		</data>
+		<key>.svn/prop-base/ComicLanguages.plist.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/Default.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/Default@2x.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/EnglishList.plist.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/Icon-Small.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/Icon-Small@2x.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/Icon-iPad.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/Icon.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/Icon@2x.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/MainWindow.nib.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/MalayalamList.plist.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/RootViewController.nib.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/Settings.nib.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/embedded.mobileprovision.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/nextIcon.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/nextIcon@2x.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/previousIcon.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/prop-base/previousIcon@2x.png.svn-base</key>
+		<data>
+		oChJQ/jd/mnO7JCDPmbZa99Kl/A=
+		</data>
+		<key>.svn/text-base/ChandamamaReader.svn-base</key>
+		<data>
+		mBgDpHIZBJycrbNFAoh76CRxCSM=
+		</data>
+		<key>.svn/text-base/CodeResources.svn-base</key>
+		<data>
+		2mhFJ6WxLloef0dtYZ77UlpuBZ0=
+		</data>
+		<key>.svn/text-base/ComicLanguages.plist.svn-base</key>
+		<data>
+		+qAxVwZ0FS4HVfeo1490iS6eeoU=
+		</data>
+		<key>.svn/text-base/ComicViewController.nib.svn-base</key>
+		<data>
+		wcyQ3udgL5VSSVJbEwfEIisH5WE=
+		</data>
+		<key>.svn/text-base/Default.png.svn-base</key>
+		<data>
+		W27FsA7aT+nWtnUbRlPqUHkgUF4=
+		</data>
+		<key>.svn/text-base/Default@2x.png.svn-base</key>
+		<data>
+		i+1Qyeyy4z0XKzxUwABnAjBUySo=
+		</data>
+		<key>.svn/text-base/EnglishList.plist.svn-base</key>
+		<data>
+		5S0N4pOgQwpYQr3GnabrFVPMH7s=
+		</data>
+		<key>.svn/text-base/Icon-Small.png.svn-base</key>
+		<data>
+		uTAgMjTOy3csARU5EGL+XCD3O08=
+		</data>
+		<key>.svn/text-base/Icon-Small@2x.png.svn-base</key>
+		<data>
+		5kFrFg+k4VbtzBp+s8NbCTgjgXE=
+		</data>
+		<key>.svn/text-base/Icon-iPad.png.svn-base</key>
+		<data>
+		pdZDwrKhMzPzi+2WXZ2axERLoWo=
+		</data>
+		<key>.svn/text-base/Icon.png.svn-base</key>
+		<data>
+		qTAUCeJWhnOMwtVFoDccZCMm9KM=
+		</data>
+		<key>.svn/text-base/Icon@2x.png.svn-base</key>
+		<data>
+		4YrfWYupJQOb7HnLk1u0kojNCf8=
+		</data>
+		<key>.svn/text-base/KannadaList.plist.svn-base</key>
+		<data>
+		3nLp66T3umYWKv/5EXOqLtsQDiQ=
+		</data>
+		<key>.svn/text-base/MainWindow.nib.svn-base</key>
+		<data>
+		Jri1PA4YvTBlV+2g307ilc9PVws=
+		</data>
+		<key>.svn/text-base/MalayalamList.plist.svn-base</key>
+		<data>
+		DNbmemdf43eHzG3qBTKgMuNhnE4=
+		</data>
+		<key>.svn/text-base/PkgInfo.svn-base</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>.svn/text-base/RootViewController.nib.svn-base</key>
+		<data>
+		jrow2OFsiQs2FKtBUliQf+EqsfQ=
+		</data>
+		<key>.svn/text-base/Settings.nib.svn-base</key>
+		<data>
+		Eb8QW3LnUXoQNAHuK5HRL+IGzmo=
+		</data>
+		<key>.svn/text-base/embedded.mobileprovision.svn-base</key>
+		<data>
+		6kfs/dLtMRfaZq15NWAPAkg/k0c=
+		</data>
+		<key>.svn/text-base/nextIcon.png.svn-base</key>
+		<data>
+		oHf5hX8GkPFInyB2E02xR2NYXh8=
+		</data>
+		<key>.svn/text-base/nextIcon@2x.png.svn-base</key>
+		<data>
+		0HqbT/sOxPNF16r2glnGkz5HUeY=
+		</data>
+		<key>.svn/text-base/previousIcon.png.svn-base</key>
+		<data>
+		14hiuCXx7DorCHvFua4DLfM0Nj4=
+		</data>
+		<key>.svn/text-base/previousIcon@2x.png.svn-base</key>
+		<data>
+		nOP9xje2ZtlPjrDrl/wwcpFJxdE=
+		</data>
 		<key>ComicLanguages.plist</key>
 		<data>
 		+qAxVwZ0FS4HVfeo1490iS6eeoU=
@@ -50,7 +230,7 @@
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		Jri1PA4YvTBlV+2g307ilc9PVws=
+		o7sBOpE0onSjcYxXQzeO3d9CI48=
 		</data>
 		<key>MalayalamList.plist</key>
 		<data>
@@ -62,7 +242,7 @@
 		</data>
 		<key>RootViewController.nib</key>
 		<data>
-		jrow2OFsiQs2FKtBUliQf+EqsfQ=
+		rWzSW2vNxERpW4TfoYqRmZxMo1E=
 		</data>
 		<key>Settings.nib</key>
 		<data>
