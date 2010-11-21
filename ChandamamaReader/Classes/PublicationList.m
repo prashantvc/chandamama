@@ -37,9 +37,10 @@
 	self.navigationItem.leftBarButtonItem = settings;
 	[settings release];
 	
-	/*UIBarButtonItem *delete = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:self action:nil];
+	UIBarButtonItem *delete = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash 
+																			target:self action:@selector(deletePressed:)];
 	self.navigationItem.rightBarButtonItem = delete;
-	[delete release];*/
+	[delete release];
 											  
 }
 
@@ -88,13 +89,6 @@
 	self.months = tempMonths;
 	[tempMonths release];
 	
-}
-
-
--(void) settingsPressed:(id)sender {
-	Settings *settingsontroller = [[Settings alloc] initWithModalViewDelegate:self];
-	[self.navigationController presentModalViewController:settingsontroller animated:YES];
-	[settingsontroller release];
 }
 
 
@@ -160,6 +154,40 @@
 	 
 }
 
+
+#pragma mark -
+#pragma mark UIBarButtonItemSelectors
+
+-(void) settingsPressed:(id)sender {
+	Settings *settingsontroller = [[Settings alloc] initWithModalViewDelegate:self];
+	[self.navigationController presentModalViewController:settingsontroller animated:YES];
+	[settingsontroller release];
+}
+
+-(void) deletePressed:(id)sender{
+	[self showDeleteConfirmAlert];
+}
+
+- (void)showDeleteConfirmAlert
+{
+	UIAlertView *alert = [[UIAlertView alloc] init];
+	[alert setTitle:@"Delete Page"];
+	[alert setMessage:@"Are you sure you want to delete stored pages?"];
+	[alert setDelegate:self];
+	[alert addButtonWithTitle:@"Yes"];
+	[alert addButtonWithTitle:@"No"];
+	[alert show];
+	[alert release];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+	if (buttonIndex == 0) //Clicked YES
+	{
+		NSError *errorInfo;
+		[[NSFileManager defaultManager] removeItemAtPath:TMP error:&errorInfo];
+	}
+}
 
 #pragma mark -
 #pragma mark Memory management

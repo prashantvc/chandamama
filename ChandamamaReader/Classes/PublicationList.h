@@ -28,5 +28,6 @@
 @property (nonatomic, retain) NSString *navigationTitle;
 
 - (void) loadInitialData;
+- (void)showDeleteConfirmAlert;
 
 @end

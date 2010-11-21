@@ -23,9 +23,6 @@
 - (void)dealloc
 {
     [imageView release];
-	[connection cancel]; //in case the URL is still downloading
-	[connection release];
-	[data release];
 	[pageService release];
     [super dealloc];
 }
@@ -110,16 +107,11 @@
     self.zoomScale = minScale;  // start out with the content fully visible
 }
 
-
-- (void)loadImageFromURL:(NSURL*)url {
+- (void) loadImageFromURL:(NSURL *)url forLanguage:(NSString *)langauge forYear:(NSString *)year forMonth:(NSString *)month pageNumber:(int)number {
 	if ([[self subviews] count]>0) {
 		//then this must be another image, the old one is still in subviews
 		[[[self subviews] objectAtIndex:0] removeFromSuperview]; //so remove it (releases it also)
 	}
-	
-	pageUrl = url;
-	
-	NSLog(@"%@", [pageUrl relativePath]);
 	
 	CGRect activityFrame;
 	activityFrame.size.width = 50;
@@ -135,7 +127,8 @@
 	[activity release];
 	
 	
-	[pageService loadImage:pageUrl];
+	[pageService loadImageFromURL:url forLanguage:langauge
+						  forYear:year forMonth:month pageNumber:number];	
 }
 
 //just in case you want to get the image directly, here it is in subviews

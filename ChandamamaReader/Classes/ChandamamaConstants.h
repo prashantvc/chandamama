@@ -12,3 +12,4 @@
 #define MONTH @"MonthsPublished"
 #define TMP NSTemporaryDirectory()
 #define COMIC_LANGUAGE @"ComicLanguage"
+#define FILE_NAME_FORMAT @"%@_%@_%@_%d.jpg"

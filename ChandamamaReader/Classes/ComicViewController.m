@@ -195,7 +195,7 @@
 	currentPage = index;
 	NSLog(@"Current page %d %@", index, pagingScrollView);
 	NSURL *url  =[NSURL URLWithString: [comicParser getPageUrlStringForIndex:currentPage]];
-	[page loadImageFromURL:url];
+	[page loadImageFromURL:url forLanguage:comicLanguage forYear:issuedYear forMonth:issuedMonth pageNumber:currentPage];
 }
 
 - (ImageScrollView *) dequeueRecycledPage {
