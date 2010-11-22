@@ -16,7 +16,6 @@
 
 @interface ComicDataParser : NSObject {
 	id <ComicServiceProtocol> receiver;
-	Utilities *utility;
 	NSString* comicLanguage;
 	NSString* issuedYear;
 	NSString* issuedMonth;

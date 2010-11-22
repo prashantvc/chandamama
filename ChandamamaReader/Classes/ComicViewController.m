@@ -193,7 +193,6 @@
     page.index = index;
     page.frame = [self frameForPageAtIndex:index];
 	currentPage = index;
-	NSLog(@"Current page %d %@", index, pagingScrollView);
 	NSURL *url  =[NSURL URLWithString: [comicParser getPageUrlStringForIndex:currentPage]];
 	[page loadImageFromURL:url forLanguage:comicLanguage forYear:issuedYear forMonth:issuedMonth pageNumber:currentPage];
 }
@@ -278,7 +277,6 @@
 }
 
 - (void) gotoPage:(int)pageNumber {
-	NSLog(@"pageNumber page %d", pageNumber);
 	CGRect frame = pagingScrollView.frame;
 	frame.origin.x = frame.size.width * pageNumber;
 	frame.origin.y = 0;
