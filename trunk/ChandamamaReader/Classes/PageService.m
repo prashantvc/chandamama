@@ -100,7 +100,7 @@
 {
 	// Generate a unique path to a resource representing the image you want
     NSString *uniquePath = [TMP stringByAppendingPathComponent: filename];
-	
+
     // Check for file existence
     if(![[NSFileManager defaultManager] fileExistsAtPath: uniquePath])
     {
@@ -130,7 +130,6 @@
 - (UIImage *) getCachedImageForFilename:(NSString *)filename
 {
     NSString *uniquePath = [TMP stringByAppendingPathComponent: filename];
-    
     UIImage *localImage = nil;
     
     // Check for a cached version

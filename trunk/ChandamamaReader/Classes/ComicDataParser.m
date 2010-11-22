@@ -28,7 +28,7 @@
 		
 		threeLetterMonth = [months objectForKey:issuedMonth];
 		monthInNumber = [monthNumbers objectForKey:threeLetterMonth];
-		utility = [[Utilities alloc] init];
+		
 		return self;
 	}
 	return nil;
@@ -140,7 +140,6 @@
 }
 
 -(void) dealloc {
-	[utility release];
 	[super dealloc];
 }
 

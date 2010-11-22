@@ -184,8 +184,19 @@
 {
 	if (buttonIndex == 0) //Clicked YES
 	{
-		NSError *errorInfo;
-		[[NSFileManager defaultManager] removeItemAtPath:TMP error:&errorInfo];
+		NSString *path = TMP;
+		NSFileManager *manager = [NSFileManager defaultManager];
+		NSError *error;
+		NSArray *files = [manager contentsOfDirectoryAtPath:path error:&error];
+		
+		for(NSString *file in files) {
+			if( file != @"." && file != @".." ) {
+				BOOL result = [manager removeItemAtPath:[ path stringByAppendingPathComponent: file ] error: &error ];
+				if(!result && error ) { 
+					NSLog(@"Oppss %@", error);
+				}
+			}    
+		}
 	}
 }
 
