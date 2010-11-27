@@ -38,7 +38,7 @@
 		<key>Language</key>
 		<string>தமிழ்</string>
 		<key>ListFile</key>
-		<string>MalayalamList</string>
+		<string>Tamil</string>
 		<key>ComicLanguage</key>
 		<string>tamil</string>
 	</dict>
@@ -46,41 +46,9 @@
 		<key>Language</key>
 		<string>తెలుగు</string>
 		<key>ListFile</key>
-		<string>MalayalamList</string>
+		<string>Telugu</string>
 		<key>ComicLanguage</key>
 		<string>telugu</string>
-	</dict>
-	<dict>
-		<key>Language</key>
-		<string>मराठी</string>
-		<key>ListFile</key>
-		<string>MalayalamList</string>
-		<key>ComicLanguage</key>
-		<string>marathi</string>
-	</dict>
-	<dict>
-		<key>Language</key>
-		<string>संस्कृत</string>
-		<key>ListFile</key>
-		<string>MalayalamList</string>
-		<key>ComicLanguage</key>
-		<string>sanskrit</string>
-	</dict>
-	<dict>
-		<key>Language</key>
-		<string>বেঙ্গলি</string>
-		<key>ListFile</key>
-		<string>MalayalamList</string>
-		<key>ComicLanguage</key>
-		<string>bengali</string>
-	</dict>
-	<dict>
-		<key>Language</key>
-		<string>ગુજરાતી</string>
-		<key>ListFile</key>
-		<string>MalayalamList</string>
-		<key>ComicLanguage</key>
-		<string>gujarati</string>
 	</dict>
 </array>
 </plist>
