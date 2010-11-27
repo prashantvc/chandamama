@@ -39,7 +39,9 @@
 		DA86058512985805009C1C6C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA86058412985805009C1C6C /* RootViewController.xib */; };
 		DAA8DF7C12959F2600C9BEAF /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8DF7A12959F2600C9BEAF /* Settings.m */; };
 		DAA8DF7D12959F2600C9BEAF /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA8DF7B12959F2600C9BEAF /* Settings.xib */; };
-		DADF7138128C6C0B00D27CC9 /* MalayalamList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DADF7137128C6C0B00D27CC9 /* MalayalamList.plist */; };
+		DAF781E812A1757100DD2912 /* MalayalamList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF781E512A1757100DD2912 /* MalayalamList.plist */; };
+		DAF781E912A1757100DD2912 /* Tamil.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF781E612A1757100DD2912 /* Tamil.plist */; };
+		DAF781EA12A1757100DD2912 /* Telugu.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF781E712A1757100DD2912 /* Telugu.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,7 +95,9 @@
 		DAA8DF7912959F2600C9BEAF /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 		DAA8DF7A12959F2600C9BEAF /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		DAA8DF7B12959F2600C9BEAF /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Settings.xib; path = Classes/Settings.xib; sourceTree = "<group>"; };
-		DADF7137128C6C0B00D27CC9 /* MalayalamList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MalayalamList.plist; sourceTree = "<group>"; };
+		DAF781E512A1757100DD2912 /* MalayalamList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MalayalamList.plist; sourceTree = "<group>"; };
+		DAF781E612A1757100DD2912 /* Tamil.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tamil.plist; sourceTree = "<group>"; };
+		DAF781E712A1757100DD2912 /* Telugu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Telugu.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DAF781E512A1757100DD2912 /* MalayalamList.plist */,
+				DAF781E612A1757100DD2912 /* Tamil.plist */,
+				DAF781E712A1757100DD2912 /* Telugu.plist */,
 				DA86058412985805009C1C6C /* RootViewController.xib */,
 				DAA8DF7B12959F2600C9BEAF /* Settings.xib */,
 				DA795E6C1273290000209ECB /* Icon-iPad.png */,
@@ -170,7 +177,6 @@
 				DA795E6F1273290000209ECB /* nextIcon.png */,
 				DA795E701273290000209ECB /* nextIcon@2x.png */,
 				DA795E711273290000209ECB /* previousIcon.png */,
-				DADF7137128C6C0B00D27CC9 /* MalayalamList.plist */,
 				DA795E721273290000209ECB /* previousIcon@2x.png */,
 				DA795E731273290000209ECB /* Default.png */,
 				DA795E741273290000209ECB /* ComicViewController.xib */,
@@ -301,9 +307,11 @@
 				DA795E8F1273290000209ECB /* EnglishList.plist in Resources */,
 				DA795E901273290000209ECB /* ComicLanguages.plist in Resources */,
 				DA795E911273290000209ECB /* KannadaList.plist in Resources */,
-				DADF7138128C6C0B00D27CC9 /* MalayalamList.plist in Resources */,
 				DAA8DF7D12959F2600C9BEAF /* Settings.xib in Resources */,
 				DA86058512985805009C1C6C /* RootViewController.xib in Resources */,
+				DAF781E812A1757100DD2912 /* MalayalamList.plist in Resources */,
+				DAF781E912A1757100DD2912 /* Tamil.plist in Resources */,
+				DAF781EA12A1757100DD2912 /* Telugu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +356,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = ChandamamaReader;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -365,6 +374,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = ChandamamaReader;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -375,12 +385,14 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -390,13 +402,15 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -406,13 +420,15 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Distribution;
 		};
@@ -431,6 +447,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = ChandamamaReader;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
