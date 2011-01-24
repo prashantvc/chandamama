@@ -30,9 +30,9 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Distribution;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = DAAB407C1233D5F700CF717D /* ChandamamaReader */;
-		activeSDKPreference = iphoneos4.2;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* ChandamamaReader */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* ChandamamaReader */,
@@ -123,6 +123,18 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					690,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
@@ -145,7 +157,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					20,
-					728,
+					652,
 					20,
 					48,
 					43,
@@ -185,8 +197,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312571205;
-			PBXWorkspaceStateSaveDate = 312571205;
+			PBXPerProjectTemplateStateSaveDate = 317582639;
+			PBXWorkspaceStateSaveDate = 317582639;
 		};
 		perUserProjectItems = {
 			DA13571C12565BCC001D47BF = DA13571C12565BCC001D47BF /* PBXTextBookmark */;
@@ -208,49 +220,54 @@
 			DA2DEAC71270A8E700CD8BDF = DA2DEAC71270A8E700CD8BDF /* PBXTextBookmark */;
 			DA38B0D1127DE17E007D7094 = DA38B0D1127DE17E007D7094 /* PBXTextBookmark */;
 			DA38B0E2127DE17E007D7094 = DA38B0E2127DE17E007D7094 /* PBXTextBookmark */;
+			DA3D4CF112EDDDE3006A2E27 = DA3D4CF112EDDDE3006A2E27 /* PlistBookmark */;
 			DA5E91751269ED1F00A38A22 = DA5E91751269ED1F00A38A22 /* PBXTextBookmark */;
 			DA5E91781269ED1F00A38A22 = DA5E91781269ED1F00A38A22 /* PBXTextBookmark */;
 			DA5E91F31269F92A00A38A22 = DA5E91F31269F92A00A38A22 /* PBXTextBookmark */;
 			DA5E92001269F98100A38A22 = DA5E92001269F98100A38A22 /* PBXTextBookmark */;
 			DA5E9290126A0DC900A38A22 = DA5E9290126A0DC900A38A22 /* PBXTextBookmark */;
+			DA6C3D8612EDED4F009A26CD /* PlistBookmark */ = DA6C3D8612EDED4F009A26CD /* PlistBookmark */;
 			DA795F0F127336F300209ECB = DA795F0F127336F300209ECB /* PlistBookmark */;
-			DA8604D31298453E009C1C6C = DA8604D31298453E009C1C6C /* PBXBookmark */;
 			DA86055B1298565F009C1C6C = DA86055B1298565F009C1C6C /* PBXBookmark */;
 			DA86058E129858D6009C1C6C = DA86058E129858D6009C1C6C /* PBXBookmark */;
 			DA86058F129858D6009C1C6C = DA86058F129858D6009C1C6C /* PBXBookmark */;
-			DA860595129858D6009C1C6C = DA860595129858D6009C1C6C /* PlistBookmark */;
 			DA86059A129859FD009C1C6C = DA86059A129859FD009C1C6C /* PlistBookmark */;
-			DA86059B129859FD009C1C6C = DA86059B129859FD009C1C6C /* PlistBookmark */;
 			DA8605BB12985CB9009C1C6C = DA8605BB12985CB9009C1C6C /* PBXTextBookmark */;
 			DA86063712986647009C1C6C = DA86063712986647009C1C6C /* PBXTextBookmark */;
 			DAA8DF4D12959E6800C9BEAF = DAA8DF4D12959E6800C9BEAF /* PBXBookmark */;
 			DAA8DF4F12959E6800C9BEAF = DAA8DF4F12959E6800C9BEAF /* PBXBookmark */;
 			DAA8DF7212959EF600C9BEAF = DAA8DF7212959EF600C9BEAF /* PBXBookmark */;
 			DAB8F5C4126A36020061ABE2 = DAB8F5C4126A36020061ABE2 /* PBXTextBookmark */;
-			DADF7148128C6D8200D27CC9 = DADF7148128C6D8200D27CC9 /* PlistBookmark */;
-			DADF716E128C71A000D27CC9 = DADF716E128C71A000D27CC9 /* PBXTextBookmark */;
 			DAE043BD12A15ADE002F51C0 = DAE043BD12A15ADE002F51C0 /* PBXTextBookmark */;
 			DAE043D312A16016002F51C0 = DAE043D312A16016002F51C0 /* PBXTextBookmark */;
 			DAE043D412A16016002F51C0 = DAE043D412A16016002F51C0 /* PBXTextBookmark */;
 			DAE043D512A16016002F51C0 = DAE043D512A16016002F51C0 /* PBXTextBookmark */;
-			DAE043D612A16016002F51C0 = DAE043D612A16016002F51C0 /* PBXBookmark */;
-			DAE043DC12A1632F002F51C0 = DAE043DC12A1632F002F51C0 /* PBXTextBookmark */;
+			DAE3209812EDED2100939D01 = DAE3209812EDED2100939D01 /* PlistBookmark */;
+			DAE3209912EDED2100939D01 = DAE3209912EDED2100939D01 /* PlistBookmark */;
+			DAE3209A12EDED2100939D01 = DAE3209A12EDED2100939D01 /* PlistBookmark */;
+			DAE3209B12EDED2100939D01 = DAE3209B12EDED2100939D01 /* PlistBookmark */;
+			DAE3209C12EDED2100939D01 = DAE3209C12EDED2100939D01 /* PlistBookmark */;
+			DAE3209D12EDED2100939D01 = DAE3209D12EDED2100939D01 /* PlistBookmark */;
+			DAE3209E12EDED2100939D01 = DAE3209E12EDED2100939D01 /* PlistBookmark */;
 			DAEB2238126B54BD00C6342F = DAEB2238126B54BD00C6342F /* PlistBookmark */;
 			DAEB2239126B54BD00C6342F = DAEB2239126B54BD00C6342F /* PlistBookmark */;
 			DAEB223A126B54BD00C6342F = DAEB223A126B54BD00C6342F /* PlistBookmark */;
 			DAEB225D126B56D500C6342F = DAEB225D126B56D500C6342F /* PBXTextBookmark */;
 			DAEB225E126B56D500C6342F = DAEB225E126B56D500C6342F /* PBXTextBookmark */;
 			DAEB2266126B584500C6342F = DAEB2266126B584500C6342F /* PBXTextBookmark */;
-			DAF781F212A176C100DD2912 /* PBXTextBookmark */ = DAF781F212A176C100DD2912 /* PBXTextBookmark */;
-			DAF7820612A179F400DD2912 /* PBXTextBookmark */ = DAF7820612A179F400DD2912 /* PBXTextBookmark */;
-			DAF7821012A17AEA00DD2912 /* PBXTextBookmark */ = DAF7821012A17AEA00DD2912 /* PBXTextBookmark */;
-			DAF7821512A17D1100DD2912 /* PBXTextBookmark */ = DAF7821512A17D1100DD2912 /* PBXTextBookmark */;
-			DAF7822912A17FB200DD2912 /* PBXTextBookmark */ = DAF7822912A17FB200DD2912 /* PBXTextBookmark */;
-			DAF7822A12A17FB200DD2912 /* PBXBookmark */ = DAF7822A12A17FB200DD2912 /* PBXBookmark */;
-			DAF7822B12A17FB200DD2912 /* PlistBookmark */ = DAF7822B12A17FB200DD2912 /* PlistBookmark */;
-			DAF7823212A1807A00DD2912 /* PlistBookmark */ = DAF7823212A1807A00DD2912 /* PlistBookmark */;
-			DAF7823912A180CF00DD2912 /* PlistBookmark */ = DAF7823912A180CF00DD2912 /* PlistBookmark */;
-			DAF7823C12A180F500DD2912 /* PlistBookmark */ = DAF7823C12A180F500DD2912 /* PlistBookmark */;
+			DAF7822912A17FB200DD2912 = DAF7822912A17FB200DD2912 /* PBXTextBookmark */;
+			DAF7822A12A17FB200DD2912 = DAF7822A12A17FB200DD2912 /* PBXBookmark */;
+			DAF7825412A183D400DD2912 = DAF7825412A183D400DD2912 /* PlistBookmark */;
+			DAF7825712A183D400DD2912 = DAF7825712A183D400DD2912 /* PBXTextBookmark */;
+			DAF7825912A183D400DD2912 = DAF7825912A183D400DD2912 /* PBXTextBookmark */;
+			DAF7825B12A183D400DD2912 = DAF7825B12A183D400DD2912 /* PBXTextBookmark */;
+			DAF7825D12A183D400DD2912 = DAF7825D12A183D400DD2912 /* PlistBookmark */;
+			DAF7825F12A183D400DD2912 = DAF7825F12A183D400DD2912 /* PlistBookmark */;
+			DAF7826112A183D400DD2912 = DAF7826112A183D400DD2912 /* PBXTextBookmark */;
+			DAF7826312A183D400DD2912 = DAF7826312A183D400DD2912 /* PlistBookmark */;
+			DAF7826612A183D400DD2912 = DAF7826612A183D400DD2912 /* PBXTextBookmark */;
+			DAF7826812A183D400DD2912 = DAF7826812A183D400DD2912 /* PlistBookmark */;
+			DAF7826A12A183D400DD2912 = DAF7826A12A183D400DD2912 /* PlistBookmark */;
 			DAFA3BB21281681D003A1724 = DAFA3BB21281681D003A1724 /* PBXTextBookmark */;
 		};
 		sourceControlManager = DAAB40911233D5FC00CF717D /* Source Control */;
@@ -500,6 +517,17 @@
 		vrLen = 678;
 		vrLoc = 0;
 	};
+	DA3D4CF112EDDDE3006A2E27 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAF781E612A1757100DD2912 /* Tamil.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/prashantvc/ChandamamaReader/Tamil.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
 	DA4D82061233F0CC006E4625 /* Icon.png */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = image.png;
@@ -656,6 +684,17 @@
 		name = KannadaList.plist;
 		path = /users/prashantvc/Projects/ChandamamaReader/KannadaList.plist;
 		sourceTree = "<absolute>";
+	};
+	DA6C3D8612EDED4F009A26CD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAF781E712A1757100DD2912 /* Telugu.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/prashantvc/ChandamamaReader/Telugu.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	DA795E6A127328F400209ECB /* ChandamamaReader-Info.plist */ = {
 		uiCtxt = {
@@ -831,10 +870,6 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	DA8604D31298453E009C1C6C /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = DA795E6F1273290000209ECB /* nextIcon.png */;
-	};
 	DA86055B1298565F009C1C6C /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = DA795E771273290000209ECB /* Icon-Small.png */;
@@ -847,18 +882,6 @@
 		isa = PBXBookmark;
 		fRef = DA795E6C1273290000209ECB /* Icon-iPad.png */;
 	};
-	DA860595129858D6009C1C6C /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = DA795E6A127328F400209ECB /* ChandamamaReader-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleDisplayName,
-		);
-		name = "/Users/prashantvc/Projects/ChandamamaReader/ChandamamaReader-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
 	DA86059A129859FD009C1C6C /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = DA795E7C1273290000209ECB /* EnglishList.plist */;
@@ -867,19 +890,6 @@
 		kPath = (
 		);
 		name = /Users/prashantvc/Projects/ChandamamaReader/EnglishList.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	DA86059B129859FD009C1C6C /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = DA795E7D1273290000209ECB /* ComicLanguages.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			0,
-			ComicLanguage,
-		);
-		name = /Users/prashantvc/Projects/ChandamamaReader/ComicLanguages.plist;
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
@@ -1066,41 +1076,6 @@
 		path = /users/prashantvc/Projects/ChandamamaReader/Classes/Utilities.m;
 		sourceTree = "<absolute>";
 	};
-	DADF7137128C6C0B00D27CC9 /* MalayalamList.plist */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.plist.xml;
-		name = MalayalamList.plist;
-		path = /Users/prashantvc/ChandamamaReader/MalayalamList.plist;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {854, 8970}}";
-			sepNavSelRange = "{2934, 0}";
-			sepNavVisRange = "{2157, 1090}";
-			sepNavWindowFrame = "{{15, 85}, {805, 688}}";
-		};
-	};
-	DADF7148128C6D8200D27CC9 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = DA795E7E1273290000209ECB /* KannadaList.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/prashantvc/Projects/ChandamamaReader/KannadaList.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	DADF716E128C71A000D27CC9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DADF7137128C6C0B00D27CC9 /* MalayalamList.plist */;
-		name = "MalayalamList.plist: 114";
-		rLen = 0;
-		rLoc = 2934;
-		rType = 0;
-		vrLen = 1090;
-		vrLoc = 2157;
-	};
 	DAE043AF12A15ABF002F51C0 /* UIView.h */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.c.h;
@@ -1148,19 +1123,83 @@
 		vrLen = 623;
 		vrLoc = 0;
 	};
-	DAE043D612A16016002F51C0 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = DA795E9C1273296B00209ECB /* ComicDataParser.m */;
-	};
-	DAE043DC12A1632F002F51C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DA795E9C1273296B00209ECB /* ComicDataParser.m */;
-		name = "ComicDataParser.m: 31";
+	DAE3209812EDED2100939D01 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAF781E512A1757100DD2912 /* MalayalamList.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/prashantvc/ChandamamaReader/MalayalamList.plist;
 		rLen = 0;
-		rLoc = 921;
-		rType = 0;
-		vrLen = 775;
-		vrLoc = 492;
+		rLoc = 9223372036854775808;
+	};
+	DAE3209912EDED2100939D01 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DA795E6A127328F400209ECB /* ChandamamaReader-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIRequiresPersistentWiFi,
+		);
+		name = "/Users/prashantvc/Projects/ChandamamaReader/ChandamamaReader-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DAE3209A12EDED2100939D01 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DA795E7E1273290000209ECB /* KannadaList.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/prashantvc/ChandamamaReader/KannadaList.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DAE3209B12EDED2100939D01 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DA795E7D1273290000209ECB /* ComicLanguages.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/prashantvc/ChandamamaReader/ComicLanguages.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DAE3209C12EDED2100939D01 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAE3206B12EDEA4100939D01 /* Marathi.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/prashantvc/ChandamamaReader/Marathi.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DAE3209D12EDED2100939D01 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAF781E712A1757100DD2912 /* Telugu.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/prashantvc/ChandamamaReader/Telugu.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DAE3209E12EDED2100939D01 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAF781E712A1757100DD2912 /* Telugu.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/prashantvc/ChandamamaReader/Telugu.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
 	};
 	DAEB2238126B54BD00C6342F /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -1226,46 +1265,6 @@
 		vrLen = 1684;
 		vrLoc = 988;
 	};
-	DAF781F212A176C100DD2912 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DA795E9C1273296B00209ECB /* ComicDataParser.m */;
-		name = "ComicDataParser.m: 30";
-		rLen = 0;
-		rLoc = 897;
-		rType = 0;
-		vrLen = 775;
-		vrLoc = 492;
-	};
-	DAF7820612A179F400DD2912 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DA795E9C1273296B00209ECB /* ComicDataParser.m */;
-		name = "ComicDataParser.m: 30";
-		rLen = 0;
-		rLoc = 897;
-		rType = 0;
-		vrLen = 775;
-		vrLoc = 492;
-	};
-	DAF7821012A17AEA00DD2912 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DA795E9C1273296B00209ECB /* ComicDataParser.m */;
-		name = "ComicDataParser.m: 30";
-		rLen = 0;
-		rLoc = 918;
-		rType = 0;
-		vrLen = 1220;
-		vrLoc = 0;
-	};
-	DAF7821512A17D1100DD2912 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DA795E9C1273296B00209ECB /* ComicDataParser.m */;
-		name = "ComicDataParser.m: 15";
-		rLen = 0;
-		rLoc = 388;
-		rType = 0;
-		vrLen = 1220;
-		vrLoc = 0;
-	};
 	DAF7822912A17FB200DD2912 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DA795E9C1273296B00209ECB /* ComicDataParser.m */;
@@ -1280,50 +1279,198 @@
 		isa = PBXBookmark;
 		fRef = DA795E6F1273290000209ECB /* nextIcon.png */;
 	};
-	DAF7822B12A17FB200DD2912 /* PlistBookmark */ = {
+	DAF7825412A183D400DD2912 /* PlistBookmark */ = {
 		isa = PlistBookmark;
-		fRef = DA795E6A127328F400209ECB /* ChandamamaReader-Info.plist */;
+		fRef = DAF7825512A183D400DD2912 /* ComicLanguages.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
 		);
-		name = "/Users/prashantvc/Projects/ChandamamaReader/ChandamamaReader-Info.plist";
+		name = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/ComicLanguages.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
-	DAF7823212A1807A00DD2912 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = DA795E6A127328F400209ECB /* ChandamamaReader-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			UIApplicationExitsOnSuspend,
-		);
-		name = "/Users/prashantvc/Projects/ChandamamaReader/ChandamamaReader-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
+	DAF7825512A183D400DD2912 /* ComicLanguages.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file.bplist;
+		name = ComicLanguages.plist;
+		path = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/ComicLanguages.plist";
+		sourceTree = "<absolute>";
 	};
-	DAF7823912A180CF00DD2912 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = DA795E6A127328F400209ECB /* ChandamamaReader-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/prashantvc/Projects/ChandamamaReader/ChandamamaReader-Info.plist";
+	DAF7825712A183D400DD2912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DAF7825812A183D400DD2912 /* ChandamamaReader.dep */;
+		name = "ChandamamaReader.dep: 1";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 6691;
+		vrLoc = 0;
 	};
-	DAF7823C12A180F500DD2912 /* PlistBookmark */ = {
+	DAF7825812A183D400DD2912 /* ChandamamaReader.dep */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = ChandamamaReader.dep;
+		path = "/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphonesimulator/ChandamamaReader.build/ChandamamaReader.dep";
+		sourceTree = "<absolute>";
+	};
+	DAF7825912A183D400DD2912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DAF7825A12A183D400DD2912 /* ChandamamaReader.LinkFileList */;
+		name = "ChandamamaReader.LinkFileList: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1602;
+		vrLoc = 0;
+	};
+	DAF7825A12A183D400DD2912 /* ChandamamaReader.LinkFileList */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = ChandamamaReader.LinkFileList;
+		path = "/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphonesimulator/ChandamamaReader.build/Objects-normal/i386/ChandamamaReader.LinkFileList";
+		sourceTree = "<absolute>";
+	};
+	DAF7825B12A183D400DD2912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DAF7825C12A183D400DD2912 /* build-state.dat */;
+		name = "build-state.dat: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2984;
+		vrLoc = 0;
+	};
+	DAF7825C12A183D400DD2912 /* build-state.dat */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = "build-state.dat";
+		path = "/Users/prashantvc/ChandamamaReader/build/ChandamamaReader.build/Debug-iphonesimulator/ChandamamaReader.build/build-state.dat";
+		sourceTree = "<absolute>";
+	};
+	DAF7825D12A183D400DD2912 /* PlistBookmark */ = {
 		isa = PlistBookmark;
-		fRef = DA795E6A127328F400209ECB /* ChandamamaReader-Info.plist */;
+		fRef = DAF7825E12A183D400DD2912 /* MalayalamList.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
 		);
-		name = "/Users/prashantvc/Projects/ChandamamaReader/ChandamamaReader-Info.plist";
+		name = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/MalayalamList.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
+	};
+	DAF7825E12A183D400DD2912 /* MalayalamList.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file.bplist;
+		name = MalayalamList.plist;
+		path = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/MalayalamList.plist";
+		sourceTree = "<absolute>";
+	};
+	DAF7825F12A183D400DD2912 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAF7826012A183D400DD2912 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DAF7826012A183D400DD2912 /* Info.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file.bplist;
+		name = Info.plist;
+		path = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/Info.plist";
+		sourceTree = "<absolute>";
+	};
+	DAF7826112A183D400DD2912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DAF7826212A183D400DD2912 /* project.pbxproj */;
+		name = "project.pbxproj: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 3191;
+		vrLoc = 0;
+	};
+	DAF7826212A183D400DD2912 /* project.pbxproj */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.pbxproject;
+		name = project.pbxproj;
+		path = /Users/prashantvc/ChandamamaReader/ChandamamaReader.xcodeproj/project.pbxproj;
+		sourceTree = "<absolute>";
+	};
+	DAF7826312A183D400DD2912 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAF7826412A183D400DD2912 /* ChandamamaReader-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/prashantvc/ChandamamaReader/ChandamamaReader-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DAF7826412A183D400DD2912 /* ChandamamaReader-Info.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "ChandamamaReader-Info.plist";
+		path = "/Users/prashantvc/ChandamamaReader/ChandamamaReader-Info.plist";
+		sourceTree = "<absolute>";
+	};
+	DAF7826612A183D400DD2912 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DAF7826712A183D400DD2912 /* prashantvc.pbxuser */;
+		name = "prashantvc.pbxuser: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 992;
+		vrLoc = 0;
+	};
+	DAF7826712A183D400DD2912 /* prashantvc.pbxuser */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = prashantvc.pbxuser;
+		path = /Users/prashantvc/ChandamamaReader/ChandamamaReader.xcodeproj/prashantvc.pbxuser;
+		sourceTree = "<absolute>";
+	};
+	DAF7826812A183D400DD2912 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAF7826912A183D400DD2912 /* Tamil.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/Tamil.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DAF7826912A183D400DD2912 /* Tamil.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file.bplist;
+		name = Tamil.plist;
+		path = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/Tamil.plist";
+		sourceTree = "<absolute>";
+	};
+	DAF7826A12A183D400DD2912 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DAF7826B12A183D400DD2912 /* Telugu.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/Telugu.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DAF7826B12A183D400DD2912 /* Telugu.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file.bplist;
+		name = Telugu.plist;
+		path = "/Users/prashantvc/ChandamamaReader/build/Debug-iphonesimulator/ChandamamaReader.app/Telugu.plist";
+		sourceTree = "<absolute>";
 	};
 	DAFA3BB21281681D003A1724 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
