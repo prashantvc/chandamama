@@ -50,5 +50,13 @@
 		<key>ComicLanguage</key>
 		<string>telugu</string>
 	</dict>
+	<dict>
+		<key>Language</key>
+		<string>मराठी</string>
+		<key>ListFile</key>
+		<string>Marathi</string>
+		<key>ComicLanguage</key>
+		<string>marathi</string>
+	</dict>
 </array>
 </plist>

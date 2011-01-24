@@ -39,6 +39,7 @@
 		DA86058512985805009C1C6C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA86058412985805009C1C6C /* RootViewController.xib */; };
 		DAA8DF7C12959F2600C9BEAF /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8DF7A12959F2600C9BEAF /* Settings.m */; };
 		DAA8DF7D12959F2600C9BEAF /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA8DF7B12959F2600C9BEAF /* Settings.xib */; };
+		DAE3206C12EDEA4100939D01 /* Marathi.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAE3206B12EDEA4100939D01 /* Marathi.plist */; };
 		DAF781E812A1757100DD2912 /* MalayalamList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF781E512A1757100DD2912 /* MalayalamList.plist */; };
 		DAF781E912A1757100DD2912 /* Tamil.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF781E612A1757100DD2912 /* Tamil.plist */; };
 		DAF781EA12A1757100DD2912 /* Telugu.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF781E712A1757100DD2912 /* Telugu.plist */; };
@@ -95,6 +96,7 @@
 		DAA8DF7912959F2600C9BEAF /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 		DAA8DF7A12959F2600C9BEAF /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		DAA8DF7B12959F2600C9BEAF /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Settings.xib; path = Classes/Settings.xib; sourceTree = "<group>"; };
+		DAE3206B12EDEA4100939D01 /* Marathi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Marathi.plist; sourceTree = "<group>"; };
 		DAF781E512A1757100DD2912 /* MalayalamList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MalayalamList.plist; sourceTree = "<group>"; };
 		DAF781E612A1757100DD2912 /* Tamil.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tamil.plist; sourceTree = "<group>"; };
 		DAF781E712A1757100DD2912 /* Telugu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Telugu.plist; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DAE3206B12EDEA4100939D01 /* Marathi.plist */,
 				DAF781E512A1757100DD2912 /* MalayalamList.plist */,
 				DAF781E612A1757100DD2912 /* Tamil.plist */,
 				DAF781E712A1757100DD2912 /* Telugu.plist */,
@@ -312,6 +315,7 @@
 				DAF781E812A1757100DD2912 /* MalayalamList.plist in Resources */,
 				DAF781E912A1757100DD2912 /* Tamil.plist in Resources */,
 				DAF781EA12A1757100DD2912 /* Telugu.plist in Resources */,
+				DAE3206C12EDEA4100939D01 /* Marathi.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
